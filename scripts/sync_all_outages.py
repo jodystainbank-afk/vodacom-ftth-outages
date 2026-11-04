@@ -1,3 +1,4 @@
+import sqlite3
 import os
 import sys
 import json
@@ -267,6 +268,43 @@ def main():
     
     OUT_JSON.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     print(f"\n[DONE] Saved {len(all_rows)} live outages to {OUT_JSON} ({OUT_JSON.stat().st_size} bytes)")
+
+    # Save to SQLite Persistent Edge Database
+    db_path = DATA_DIR / "outages.db"
+    try:
+        conn = sqlite3.connect(str(db_path))
+        c = conn.cursor()
+        c.execute('''CREATE TABLE IF NOT EXISTS outages (
+            id TEXT PRIMARY KEY,
+            fno TEXT,
+            province TEXT,
+            suburb TEXT,
+            bucket TEXT,
+            status_detail TEXT,
+            impact TEXT,
+            started_at TEXT,
+            polled_at TEXT,
+            macro_flag TEXT,
+            source TEXT
+        )''')
+        c.execute('''CREATE TABLE IF NOT EXISTS metadata (
+            key TEXT PRIMARY KEY,
+            value TEXT
+        )''')
+        c.execute("INSERT OR REPLACE INTO metadata VALUES ('last_updated', ?)", (now_str,))
+        c.execute("INSERT OR REPLACE INTO metadata VALUES ('total_outages', ?)", (str(len(all_rows)),))
+        c.execute("INSERT OR REPLACE INTO metadata VALUES ('active_count', ?)", (str(payload['activeCount']),))
+        for r in all_rows:
+            if len(r) >= 11:
+                c.execute('''INSERT OR REPLACE INTO outages VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''', (
+                    r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8], r[9], r[10]
+                ))
+        conn.commit()
+        conn.close()
+        print(f"[DONE] Saved persistent SQLite database to {db_path} ({db_path.stat().st_size} bytes)")
+    except Exception as dbe:
+        print(f"[Notice] SQLite Edge DB save notice: {dbe}")
+
     print(f"Elapsed: {round(time.time() - start_time, 2)}s\n")
 
 if __name__ == "__main__":
