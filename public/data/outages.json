@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04 12:36:54 SAST",
+  "lastUpdated": "2026-11-04 10:42:44 SAST",
   "totalOutages": 157,
   "activeCount": 39,
   "vumaIncidents": [
@@ -137,9 +137,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 2 Vodacom Line(s) Down | NMS: 2024/08/07, 14:08, 2026/04/12, 21:01",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000000490 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 2 Vodacom Line(s) Down | NMS: 2024/08/07, 14:08, 2026/04/12, 21:01 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000000490 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 2 Vodacom Line(s) Down | NMS: 2024/08/07, 14:08, 2026/04/12, 21:01 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
@@ -150,9 +150,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 4 Vodacom Line(s) Down | NMS: 2026/11/01, 12:52, 2026/11/02, 07:54, 2026/11/02, 08:50, 2026/11/02, 13:00",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036232 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident, 3.2. Open - Maintenance Issue - Pending Tech Arrival) (Eastern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 4 Vodacom Line(s) Down | NMS: 2026/11/01, 12:52, 2026/11/02, 07:54, 2026/11/02, 08:50, 2026/11/02, 13:00 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036232 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident, 3.2. Open - Maintenance Issue - Pending Tech Arrival) (Eastern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 4 Vodacom Line(s) Down | NMS: 2026/11/01, 12:52, 2026/11/02, 07:54, 2026/11/02, 08:50, 2026/11/02, 13:00 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
@@ -163,9 +163,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/01, 20:42, 2026/11/02, 06:18, 2026/11/02, 07:26, 2026/11/03, 10:17, 2026/11/03, 11:11, 2026/11/03, 14:30, 2026/11/03, 15:29",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036213 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/01, 20:42, 2026/11/02, 06:18, 2026/11/02, 07:26, 2026/11/03, 10:17, 2026/11/03, 11:11, 2026/11/03, 14:30, 2026/11/03, 15:29 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036213 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/01, 20:42, 2026/11/02, 06:18, 2026/11/02, 07:26, 2026/11/03, 10:17, 2026/11/03, 11:11, 2026/11/03, 14:30, 2026/11/03, 15:29 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
@@ -176,9 +176,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/02, 07:17, 2026/11/02, 10:10, 2026/11/02, 13:25, 2026/11/03, 12:19, 2026/11/03, 13:00, 2026/11/03, 16:46, 2026/11/03, 18:39",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036208 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/02, 07:17, 2026/11/02, 10:10, 2026/11/02, 13:25, 2026/11/03, 12:19, 2026/11/03, 13:00, 2026/11/03, 16:46, 2026/11/03, 18:39 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036208 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/02, 07:17, 2026/11/02, 10:10, 2026/11/02, 13:25, 2026/11/03, 12:19, 2026/11/03, 13:00, 2026/11/03, 16:46, 2026/11/03, 18:39 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
@@ -189,9 +189,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/03, 20:06, 2026/11/04, 08:49, 2026/11/04, 09:04, 2026/11/04, 09:17, 2026/11/04, 10:03, 2026/11/04, 11:00, 2026/11/04, 11:38",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036309 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/03, 20:06, 2026/11/04, 08:49, 2026/11/04, 09:04, 2026/11/04, 09:17, 2026/11/04, 10:03, 2026/11/04, 11:00, 2026/11/04, 11:38 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036309 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/03, 20:06, 2026/11/04, 08:49, 2026/11/04, 09:04, 2026/11/04, 09:17, 2026/11/04, 10:03, 2026/11/04, 11:00, 2026/11/04, 11:38 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
@@ -202,9 +202,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 11 Vodacom Line(s) Down | NMS: 2026/11/04, 07:12, 2026/11/04, 07:13, 2026/11/04, 08:11, 2026/11/04, 08:21, 2026/11/04, 08:43, 2026/11/04, 09:17, 2026/11/04, 09:45, 2026/11/04, 11:08, 2026/11/04, 11:49, 2026/11/04, 12:20, 2026/11/04, 12:24",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036302 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 11 Vodacom Line(s) Down | NMS: 2026/11/04, 07:12, 2026/11/04, 07:13, 2026/11/04, 08:11, 2026/11/04, 08:21, 2026/11/04, 08:43, 2026/11/04, 09:17, 2026/11/04, 09:45, 2026/11/04, 11:08, 2026/11/04, 11:49, 2026/11/04, 12:20, 2026/11/04, 12:24 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036302 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 11 Vodacom Line(s) Down | NMS: 2026/11/04, 07:12, 2026/11/04, 07:13, 2026/11/04, 08:11, 2026/11/04, 08:21, 2026/11/04, 08:43, 2026/11/04, 09:17, 2026/11/04, 09:45, 2026/11/04, 11:08, 2026/11/04, 11:49, 2026/11/04, 12:20, 2026/11/04, 12:24 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
@@ -215,9 +215,9 @@
       "ACUTE (<24h)",
       "Open",
       "\u26a0\ufe0f Vuma B2B NOC: Open | 1 Vodacom Line(s) Down | NMS: 2026/11/04, 10:48",
-      "2026-11-04 12:36",
-      "2026-11-04 12:36",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036301 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 1 Vodacom Line(s) Down | NMS: 2026/11/04, 10:48 | Started: 2026-11-04 12:36 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "2026-11-04 10:42",
+      "2026-11-04 10:42",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036301 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 1 Vodacom Line(s) Down | NMS: 2026/11/04, 10:48 | Started: 2026-11-04 10:42 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
