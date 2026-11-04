@@ -2017,17 +2017,6 @@ const FALLBACK_LIVE_ROWS = [["INC-000036213", "Vumatel", "Western Cape", "Wynber
           fetchViaJsonp();
         });
     }
-          })
-          .withFailureHandler(function () {
-            fetchViaJsonp();
-          })
-          .getLiveSheetDataForWebApp();
-        return;
-      }
-
-      // Method 2: Standalone Web App / External Frontend (CORS-Safe JSONP)
-      fetchViaJsonp();
-    }
 
     function fetchViaJsonp() {
       const oldScript = document.getElementById("gvizJsonpScript");
