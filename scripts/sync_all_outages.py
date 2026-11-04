@@ -94,7 +94,7 @@ def scrape_vuma_b2b():
                 if list_trigger.is_visible():
                     list_trigger.click()
                     time.sleep(1.5)
-                    open_opt = page.locator('span:has-text("Open Incidents"), a:has-text("Open Incidents")').first
+                    open_opt = page.locator('span:has-text("OPEN incident"), a:has-text("OPEN incident"), span:has-text("Open Incidents")').first
                     if open_opt.is_visible():
                         open_opt.click()
                         time.sleep(4)
@@ -156,7 +156,7 @@ def scrape_vuma_b2b():
                     zmap = {
                         "WNB": "Wynberg", "SJAB": "Jabulani Phase 1", "FYV": "Ferryvale", 
                         "VSP": "Visagie Park", "IFF": "Ifafi Suburb", "KHZ9": "Khayelitsha Zone 09", 
-                        "KHZ16": "Khayelitsha Zone 16", "UMH": "Upper Umhlanga", "MMR": "Mount Moriah"
+                        "KHZ16": "Khayelitsha Zone 16", "UMH": "Upper Umhlanga", "MMR": "Mount Moriah", "SMNXT": "Mofolo Extension", "NGL": "Nigel SP"
                     }
                     if prefix in zmap and zmap[prefix] not in area_names:
                         area_names.append(zmap[prefix])

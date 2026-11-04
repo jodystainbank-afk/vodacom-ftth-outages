@@ -1,72 +1,188 @@
 {
-  "lastUpdated": "2026-11-04 09:27:00 SAST",
-  "totalOutages": 155,
-  "activeCount": 37,
-  "vumaIncidents": [],
+  "lastUpdated": "2026-11-04 11:29:22 SAST",
+  "totalOutages": 156,
+  "activeCount": 38,
+  "vumaIncidents": [
+    {
+      "incidentId": "INC-000000490",
+      "affectedCustomersCount": 2,
+      "incidentStatus": "Open",
+      "aggregationZones": [
+        "2. Open - Ticket Linked to Network Incident"
+      ],
+      "nmsStatuses": [
+        "2024/08/07, 14:08",
+        "2026/04/12, 21:01"
+      ],
+      "suburb": "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "province": "Northern Cape"
+    },
+    {
+      "incidentId": "INC-000036232",
+      "affectedCustomersCount": 4,
+      "incidentStatus": "Open",
+      "aggregationZones": [
+        "2. Open - Ticket Linked to Network Incident",
+        "3.2. Open - Maintenance Issue - Pending Tech Arrival"
+      ],
+      "nmsStatuses": [
+        "2026/11/01, 12:52",
+        "2026/11/02, 07:54",
+        "2026/11/02, 08:50",
+        "2026/11/02, 13:00"
+      ],
+      "suburb": "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident, 3.2. Open - Maintenance Issue - Pending Tech Arrival)",
+      "province": "Eastern Cape"
+    },
+    {
+      "incidentId": "INC-000036213",
+      "affectedCustomersCount": 7,
+      "incidentStatus": "Open",
+      "aggregationZones": [
+        "2. Open - Ticket Linked to Network Incident"
+      ],
+      "nmsStatuses": [
+        "2026/11/01, 20:42",
+        "2026/11/02, 06:18",
+        "2026/11/02, 07:26",
+        "2026/11/03, 10:17",
+        "2026/11/03, 11:11",
+        "2026/11/03, 14:30",
+        "2026/11/03, 15:29"
+      ],
+      "suburb": "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "province": "Northern Cape"
+    },
+    {
+      "incidentId": "INC-000036208",
+      "affectedCustomersCount": 7,
+      "incidentStatus": "Open",
+      "aggregationZones": [
+        "2. Open - Ticket Linked to Network Incident"
+      ],
+      "nmsStatuses": [
+        "2026/11/02, 07:17",
+        "2026/11/02, 10:10",
+        "2026/11/02, 13:25",
+        "2026/11/03, 12:19",
+        "2026/11/03, 13:00",
+        "2026/11/03, 16:46",
+        "2026/11/03, 18:39"
+      ],
+      "suburb": "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "province": "Northern Cape"
+    },
+    {
+      "incidentId": "INC-000036302",
+      "affectedCustomersCount": 8,
+      "incidentStatus": "Open",
+      "aggregationZones": [
+        "2. Open - Ticket Linked to Network Incident"
+      ],
+      "nmsStatuses": [
+        "2026/11/04, 07:12",
+        "2026/11/04, 07:13",
+        "2026/11/04, 08:11",
+        "2026/11/04, 08:21",
+        "2026/11/04, 08:43",
+        "2026/11/04, 09:17",
+        "2026/11/04, 09:45",
+        "2026/11/04, 11:08"
+      ],
+      "suburb": "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "province": "Northern Cape"
+    },
+    {
+      "incidentId": "INC-000036301",
+      "affectedCustomersCount": 1,
+      "incidentStatus": "Open",
+      "aggregationZones": [
+        "2. Open - Ticket Linked to Network Incident"
+      ],
+      "nmsStatuses": [
+        "2026/11/04, 10:48"
+      ],
+      "suburb": "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "province": "Northern Cape"
+    }
+  ],
   "rows": [
     [
-      "INC-000036213",
+      "INC-000000490",
       "Vumatel",
-      "Western Cape",
-      "Wynberg (Zones: WNB-AG11, WNB-AG13, WNB-AG8)",
-      "EXTENDED (>48h)",
-      "Repair in progress",
-      "\u26a0\ufe0f Vuma B2B NOC: Repair in progress | 7 Vodacom Line(s) Down | NMS: Link Is Down | Age: 61.19h",
-      "2026-11-04 09:54",
-      "2026-11-04 09:54",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036213 | Area: Wynberg (Zones: WNB-AG11, WNB-AG13, WNB-AG8) (Western Cape) | Status: Repair in progress | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Repair in progress | 7 Vodacom Line(s) Down | NMS: Link Is Down | Age: 61.19h | Started: 2026-11-04 09:54 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
-      "Vuma B2B Portal (Verified)"
-    ],
-    [
-      "INC-000036302",
-      "Vumatel",
-      "Gauteng",
-      "Jabulani Phase 1, Mofolo Extension (Zones: SJAB-AG16, SJAB-AG19, SJAB-AG22, SJAB-AG25, SJAB-AG27, SMNXT-AG10)",
+      "Northern Cape",
+      "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
       "ACUTE (<24h)",
-      "Technicians collecting stock",
-      "\u26a0\ufe0f Vuma B2B NOC: Technicians collecting stock | 7 Vodacom Line(s) Down | NMS: Link Is Down | Age: 2.69h",
-      "2026-11-04 09:54",
-      "2026-11-04 09:54",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036302 | Area: Jabulani Phase 1, Mofolo Extension (Zones: SJAB-AG16, SJAB-AG19, SJAB-AG22, SJAB-AG25, SJAB-AG27, SMNXT-AG10) (Gauteng) | Status: Technicians collecting stock | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Technicians collecting stock | 7 Vodacom Line(s) Down | NMS: Link Is Down | Age: 2.69h | Started: 2026-11-04 09:54 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
-      "Vuma B2B Portal (Verified)"
-    ],
-    [
-      "INC-000036208",
-      "Vumatel",
-      "Western Cape",
-      "Ferryvale, Visagie Park, Wynberg (Zones: FYV-AG4, FYV-AG9, VSP-AG14, VSP-AG19, WNB-AG11)",
-      "EXTENDED (>48h)",
-      "Repair in progress",
-      "\u26a0\ufe0f Vuma B2B NOC: Repair in progress | 5 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Age: 50.61h",
-      "2026-11-04 09:54",
-      "2026-11-04 09:54",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036208 | Area: Ferryvale, Visagie Park, Wynberg (Zones: FYV-AG4, FYV-AG9, VSP-AG14, VSP-AG19, WNB-AG11) (Western Cape) | Status: Repair in progress | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Repair in progress | 5 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Age: 50.61h | Started: 2026-11-04 09:54 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "Open",
+      "\u26a0\ufe0f Vuma B2B NOC: Open | 2 Vodacom Line(s) Down | NMS: 2024/08/07, 14:08, 2026/04/12, 21:01",
+      "2026-11-04 11:29",
+      "2026-11-04 11:29",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000000490 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 2 Vodacom Line(s) Down | NMS: 2024/08/07, 14:08, 2026/04/12, 21:01 | Started: 2026-11-04 11:29 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
       "INC-000036232",
       "Vumatel",
-      "North West",
-      "Ifafi Suburb (Zones: IFF-AG06)",
-      "EXTENDED (>48h)",
-      "Repair on-hold",
-      "\u26a0\ufe0f Vuma B2B NOC: Repair on-hold | 4 Vodacom Line(s) Down | NMS: Link Is Down, POP Light Levels Abnormal, Unknown | Age: 69.02h",
-      "2026-11-04 09:54",
-      "2026-11-04 09:54",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036232 | Area: Ifafi Suburb (Zones: IFF-AG06) (North West) | Status: Repair on-hold | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Repair on-hold | 4 Vodacom Line(s) Down | NMS: Link Is Down, POP Light Levels Abnormal, Unknown | Age: 69.02h | Started: 2026-11-04 09:54 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "Eastern Cape",
+      "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident, 3.2. Open - Maintenance Issue - Pending Tech Arrival)",
+      "ACUTE (<24h)",
+      "Open",
+      "\u26a0\ufe0f Vuma B2B NOC: Open | 4 Vodacom Line(s) Down | NMS: 2026/11/01, 12:52, 2026/11/02, 07:54, 2026/11/02, 08:50, 2026/11/02, 13:00",
+      "2026-11-04 11:29",
+      "2026-11-04 11:29",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036232 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident, 3.2. Open - Maintenance Issue - Pending Tech Arrival) (Eastern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 4 Vodacom Line(s) Down | NMS: 2026/11/01, 12:52, 2026/11/02, 07:54, 2026/11/02, 08:50, 2026/11/02, 13:00 | Started: 2026-11-04 11:29 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
-      "INC-000000490",
+      "INC-000036213",
       "Vumatel",
-      "Western Cape",
-      "Khayelitsha Zone 09, Khayelitsha Zone 16 (Zones: KHZ16-AG03, KHZ9-AG06)",
-      "EXTENDED (>48h)",
-      "Repair on-hold",
-      "\u26a0\ufe0f Vuma B2B NOC: Repair on-hold | 2 Vodacom Line(s) Down | NMS: Link Is Down | Age: 19651.76h",
-      "2026-11-04 09:54",
-      "2026-11-04 09:54",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000000490 | Area: Khayelitsha Zone 09, Khayelitsha Zone 16 (Zones: KHZ16-AG03, KHZ9-AG06) (Western Cape) | Status: Repair on-hold | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Repair on-hold | 2 Vodacom Line(s) Down | NMS: Link Is Down | Age: 19651.76h | Started: 2026-11-04 09:54 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "Northern Cape",
+      "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "ACUTE (<24h)",
+      "Open",
+      "\u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/01, 20:42, 2026/11/02, 06:18, 2026/11/02, 07:26, 2026/11/03, 10:17, 2026/11/03, 11:11, 2026/11/03, 14:30, 2026/11/03, 15:29",
+      "2026-11-04 11:29",
+      "2026-11-04 11:29",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036213 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/01, 20:42, 2026/11/02, 06:18, 2026/11/02, 07:26, 2026/11/03, 10:17, 2026/11/03, 11:11, 2026/11/03, 14:30, 2026/11/03, 15:29 | Started: 2026-11-04 11:29 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "Vuma B2B Portal (Verified)"
+    ],
+    [
+      "INC-000036208",
+      "Vumatel",
+      "Northern Cape",
+      "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "ACUTE (<24h)",
+      "Open",
+      "\u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/02, 07:17, 2026/11/02, 10:10, 2026/11/02, 13:25, 2026/11/03, 12:19, 2026/11/03, 13:00, 2026/11/03, 16:46, 2026/11/03, 18:39",
+      "2026-11-04 11:29",
+      "2026-11-04 11:29",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036208 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 7 Vodacom Line(s) Down | NMS: 2026/11/02, 07:17, 2026/11/02, 10:10, 2026/11/02, 13:25, 2026/11/03, 12:19, 2026/11/03, 13:00, 2026/11/03, 16:46, 2026/11/03, 18:39 | Started: 2026-11-04 11:29 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "Vuma B2B Portal (Verified)"
+    ],
+    [
+      "INC-000036302",
+      "Vumatel",
+      "Northern Cape",
+      "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "ACUTE (<24h)",
+      "Open",
+      "\u26a0\ufe0f Vuma B2B NOC: Open | 8 Vodacom Line(s) Down | NMS: 2026/11/04, 07:12, 2026/11/04, 07:13, 2026/11/04, 08:11, 2026/11/04, 08:21, 2026/11/04, 08:43, 2026/11/04, 09:17, 2026/11/04, 09:45, 2026/11/04, 11:08",
+      "2026-11-04 11:29",
+      "2026-11-04 11:29",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036302 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 8 Vodacom Line(s) Down | NMS: 2026/11/04, 07:12, 2026/11/04, 07:13, 2026/11/04, 08:11, 2026/11/04, 08:21, 2026/11/04, 08:43, 2026/11/04, 09:17, 2026/11/04, 09:45, 2026/11/04, 11:08 | Started: 2026-11-04 11:29 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
+      "Vuma B2B Portal (Verified)"
+    ],
+    [
+      "INC-000036301",
+      "Vumatel",
+      "Northern Cape",
+      "Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident)",
+      "ACUTE (<24h)",
+      "Open",
+      "\u26a0\ufe0f Vuma B2B NOC: Open | 1 Vodacom Line(s) Down | NMS: 2026/11/04, 10:48",
+      "2026-11-04 11:29",
+      "2026-11-04 11:29",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036301 | Area: Vumatel Network Area (Zones: 2. Open - Ticket Linked to Network Incident) (Northern Cape) | Status: Open | ETA & Update: \u26a0\ufe0f Vuma B2B NOC: Open | 1 Vodacom Line(s) Down | NMS: 2026/11/04, 10:48 | Started: 2026-11-04 11:29 | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref \u2014 do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
     [
