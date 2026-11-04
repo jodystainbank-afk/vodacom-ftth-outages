@@ -1,0 +1,49 @@
+name: Live FNO & Vuma Outage Autonomous Sync
+
+on:
+  schedule:
+    # Runs every 15 minutes, 24/7/365
+    - cron: '*/15 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'public/data/outages.json'
+
+jobs:
+  sync:
+    name: Scrape Vuma B2B & Public FNOs
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install chromium --with-deps
+
+      - name: Run Outage Scraper Engine
+        env:
+          VUMA_PORTAL_URL: ${{ secrets.VUMA_PORTAL_URL || 'https://isp-portal.vumatel.co.za/s/' }}
+          VUMA_USERNAME: ${{ secrets.VUMA_USERNAME || 'Jody.Stainbank@Merchantscx.com' }}
+          VUMA_PASSWORD: ${{ secrets.VUMA_PASSWORD || 'ProjectOctober2026#' }}
+        run: |
+          python scripts/sync_all_outages.py
+
+      - name: Commit & Push Live Outage Snapshot
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/outages.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "⚡ Live FNO & Vuma B2B Outage Sync [skip ci]" && git push)
