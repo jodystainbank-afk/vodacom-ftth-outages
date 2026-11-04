@@ -1996,7 +1996,12 @@ const FALLBACK_LIVE_ROWS = [["INC-000036213", "Vumatel", "Western Cape", "Wynber
 
             if (data.vumaIncidents && Array.isArray(data.vumaIncidents) && data.vumaIncidents.length > 0) {
               window.VUMA_LIVE_FEEDER_DATA = data.vumaIncidents;
-              renderVumaB2BView();
+              window.VUMA_B2B_DATA = { incidents: data.vumaIncidents };
+              try {
+                if (typeof renderVumaB2BTable === 'function') {
+                  renderVumaB2BTable();
+                }
+              } catch(e) {}
             }
             return;
           }
