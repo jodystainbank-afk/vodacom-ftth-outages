@@ -23,8 +23,8 @@ OUT_DB = DATA_DIR / "outages.db"
 
 # Credentials from environment or defaults
 VUMA_PORTAL_URL = os.environ.get("VUMA_PORTAL_URL", "https://isp-portal.vumatel.co.za/s/")
-VUMA_USERNAME = os.environ.get("VUMA_USERNAME", "Jody.Stainbank@Merchantscx.com")
-VUMA_PASSWORD = os.environ.get("VUMA_PASSWORD", "ProjectOctober2026#")
+VUMA_USERNAME = os.environ.get("VUMA_USERNAME", "")
+VUMA_PASSWORD = os.environ.get("VUMA_PASSWORD", "")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
@@ -36,7 +36,7 @@ FNO_PAIRS = [
     ("vumatel aerial", "Vumatel"), ("vumatel", "Vumatel"), ("vumtel", "Vumatel"), ("vuma", "Vumatel"),
     ("metrofibre", "MetroFibre"), ("mfbn", "MetroFibre"), ("mfibre", "MetroFibre"), ("mfn", "MetroFibre"),
     ("frogfoot", "Frogfoot"), ("openserve", "Openserve"), ("octotel", "Octotel"), ("evotel", "Evotel"),
-    ("zoom fibre", "Zoom Fibre"), ("zoomfibre", "Zoom Fibre"), ("zoom", "Zoom Fibre"),
+    ("zoom fibre", "Zoom Fibre"), ("zoomfibre", "Zoom Fibre"), ("zoom ftth", "Zoom Fibre"), ("zoom", "Zoom Fibre"),
     ("vodacom", "Vodacom Fibre"), ("link africa", "Link Africa"), ("linkafrica", "Link Africa"),
     ("dfa", "DFA"), ("dark fibre", "DFA"), ("open fibre", "Open Fibre"), ("openfibre", "Open Fibre"),
     ("clear access", "Clear Access"), ("waterfall access", "Waterfall Access Networks"), ("wan", "Waterfall Access Networks"),

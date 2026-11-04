@@ -5,3 +5,5 @@ venv/
 *.log
 .DS_Store
 Thumbs.db
+*.db
+public/data/outages.db

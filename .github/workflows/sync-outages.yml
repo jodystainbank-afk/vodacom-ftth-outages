@@ -10,7 +10,6 @@ on:
       - main
     paths-ignore:
       - 'public/data/outages.json'
-      - 'public/data/outages.db'
 
 jobs:
   sync:
@@ -36,9 +35,9 @@ jobs:
 
       - name: Run Outage Scraper Engine
         env:
-          VUMA_PORTAL_URL: ${{ secrets.VUMA_PORTAL_URL || 'https://isp-portal.vumatel.co.za/s/' }}
-          VUMA_USERNAME: ${{ secrets.VUMA_USERNAME || 'Jody.Stainbank@Merchantscx.com' }}
-          VUMA_PASSWORD: ${{ secrets.VUMA_PASSWORD || 'ProjectOctober2026#' }}
+          VUMA_PORTAL_URL: ${{ secrets.VUMA_PORTAL_URL }}
+          VUMA_USERNAME: ${{ secrets.VUMA_USERNAME }}
+          VUMA_PASSWORD: ${{ secrets.VUMA_PASSWORD }}
         run: |
           python scripts/sync_all_outages.py
 
@@ -46,7 +45,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/outages.json public/data/outages.db
+          git add public/data/outages.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
             git commit -m "⚡ Live FNO & Vuma B2B Outage Sync"
             git pull --rebase origin main
