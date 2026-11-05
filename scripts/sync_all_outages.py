@@ -4,7 +4,12 @@ import sys
 import json
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+
+SAST = timezone(timedelta(hours=2))
+
+def now_sast():
+    return datetime.now(SAST)
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 
@@ -229,86 +234,136 @@ def scrape_vuma_b2b():
             except Exception as e:
                 print("  List view switch notice:", e)
 
-            # Scrape rows
-            rows = page.locator('tbody tr, table[role="grid"] tbody tr').all()
+            # Salesforce list views lazy-load ~50 rows at a time: scroll until the row count stops growing
+            prev_count = -1
+            for _ in range(40):
+                count = page.locator('tbody tr').count()
+                if count == prev_count:
+                    break
+                prev_count = count
+                try:
+                    page.locator('tbody tr').last.scroll_into_view_if_needed(timeout=3000)
+                    page.mouse.wheel(0, 4000)
+                except Exception:
+                    pass
+                time.sleep(2)
+
+            # Read column headers so mapping survives column re-ordering in the portal
+            headers = [h.inner_text().strip().lower() for h in page.locator('thead th').all()]
+            def col(*names, default=None):
+                for i, h in enumerate(headers):
+                    if any(n in h for n in names):
+                        return i
+                return default
+            IDX = {
+                "case": col("case number", "ticket number", default=1),
+                "opened": col("date/time opened", "opened", default=2),
+                "status": col("status", default=3),
+                "master": col("incident number", "network incident", "master", default=5),
+                "incStatus": col("incident status", default=6),
+                "nms": col("nms", default=7),
+                "address": col("address", default=8),
+                "zone": col("aggregation zone", "zone", default=10),
+                "suburb": col("suburb", "fibrehood", default=11),
+            }
+            print(f"  Column map: {IDX} (headers found: {len(headers)})")
+
+            rows = page.locator('tbody tr').all()
             print(f"  Scraped {len(rows)} raw customer ticket rows from Vuma B2B!")
-            
+
+            def cell(cells, key):
+                i = IDX[key]
+                return cells[i].strip() if i is not None and i < len(cells) else ""
+
             cases = []
             for r in rows:
                 try:
                     cells = [c.inner_text().strip() for c in r.locator('th, td').all()]
-                    if len(cells) >= 6:
-                        cases.append({
-                            "ticketId": cells[0],
-                            "dateOpened": cells[1],
-                            "nmsStatus": cells[2] if len(cells) > 2 else "",
-                            "incidentStatus": cells[3] if len(cells) > 3 else "",
-                            "aggregationZone": cells[4] if len(cells) > 4 else "",
-                            "masterIncident": cells[5] if len(cells) > 5 else "",
-                            "raw": " | ".join(cells)
-                        })
+                    if len(cells) < 6:
+                        continue
+                    case_no = cell(cells, "case")
+                    if not case_no:
+                        continue
+                    cases.append({
+                        "ticketId": case_no,
+                        "dateOpened": cell(cells, "opened"),
+                        "subStatus": cell(cells, "status"),
+                        "masterIncident": cell(cells, "master"),
+                        "incidentStatus": cell(cells, "incStatus"),
+                        "nmsStatus": cell(cells, "nms"),
+                        "address": cell(cells, "address"),
+                        "zone": cell(cells, "zone"),
+                        "suburb": cell(cells, "suburb"),
+                    })
                 except Exception:
                     pass
 
             # Group by Master Feeder Incident
             grouped = {}
             for c in cases:
-                m_ref = c["masterIncident"] or c["ticketId"]
-                if m_ref not in grouped:
-                    grouped[m_ref] = {
-                        "incidentId": m_ref,
-                        "cases": [],
-                        "zones": set(),
-                        "nms": set(),
-                        "statuses": set(),
-                        "dates": []
-                    }
-                grouped[m_ref]["cases"].append(c)
-                if c["aggregationZone"]: grouped[m_ref]["zones"].add(c["aggregationZone"])
-                if c["nmsStatus"]: grouped[m_ref]["nms"].add(c["nmsStatus"])
-                if c["incidentStatus"]: grouped[m_ref]["statuses"].add(c["incidentStatus"])
-                if c["dateOpened"]: grouped[m_ref]["dates"].append(c["dateOpened"])
+                m_ref = c["masterIncident"] if c["masterIncident"].upper().startswith("INC") else c["ticketId"]
+                g = grouped.setdefault(m_ref, {"cases": [], "zones": set(), "suburbs": set(),
+                                               "nms": set(), "statuses": set(), "dates": []})
+                g["cases"].append(c)
+                if c["zone"]: g["zones"].add(c["zone"])
+                if c["suburb"]: g["suburbs"].add(c["suburb"])
+                if c["nmsStatus"]: g["nms"].add(c["nmsStatus"])
+                if c["incidentStatus"]: g["statuses"].add(c["incidentStatus"])
+                if c["dateOpened"]: g["dates"].append(c["dateOpened"])
 
-            now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+            def parse_vuma_date(s):
+                for fmt in ("%Y/%m/%d, %H:%M", "%Y/%m/%d %H:%M", "%d/%m/%Y, %H:%M"):
+                    try:
+                        return datetime.strptime(s.strip(), fmt).replace(tzinfo=SAST)
+                    except Exception:
+                        pass
+                return None
+
+            now_dt = now_sast()
+            now_str = now_dt.strftime("%Y-%m-%d %H:%M")
             for m_ref, d in grouped.items():
-                zones_sorted = sorted(list(d["zones"]))
-                nms_sorted = sorted(list(d["nms"]))
-                status_str = ", ".join(d["statuses"]) or "Repair in progress"
+                zones_sorted = sorted(d["zones"])
+                suburbs_sorted = sorted(d["suburbs"])
+                nms_sorted = sorted(d["nms"])
+                status_str = ", ".join(sorted(d["statuses"])) or "Open"
                 customer_count = len(d["cases"])
-                
-                # Derive location & province
-                area_names = []
-                for z in zones_sorted:
-                    prefix = z.split("-")[0]
-                    zmap = {
-                        "WNB": "Wynberg", "SJAB": "Jabulani Phase 1", "FYV": "Ferryvale", 
-                        "VSP": "Visagie Park", "IFF": "Ifafi Suburb", "KHZ9": "Khayelitsha Zone 09", 
-                        "KHZ16": "Khayelitsha Zone 16", "UMH": "Upper Umhlanga", "MMR": "Mount Moriah", "SMNXT": "Mofolo Extension", "NGL": "Nigel SP"
-                    }
-                    if prefix in zmap and zmap[prefix] not in area_names:
-                        area_names.append(zmap[prefix])
-                
-                suburb_display = (", ".join(area_names) or "Vumatel Network Area")
+
+                # Most recent customer report drives "Started" so the sheet sorts newest first
+                parsed = [x for x in (parse_vuma_date(s) for s in d["dates"]) if x]
+                newest = max(parsed) if parsed else now_dt
+                oldest = min(parsed) if parsed else now_dt
+                started_str = newest.strftime("%Y-%m-%d %H:%M")
+                age_h = (now_dt - oldest).total_seconds() / 3600
+
+                suburb_display = ", ".join(suburbs_sorted) or "Vumatel Network Area"
                 if zones_sorted:
                     suburb_display += f" (Zones: {', '.join(zones_sorted)})"
-                
-                prov = detect_province(suburb_display + " " + " ".join(area_names))
-                bucket = "EXTENDED (>48h)" if any("repair" in s.lower() or "hold" in s.lower() for s in d["statuses"]) else "ACUTE (<24h)"
-                
-                detail_str = f"⚠️ Vuma B2B NOC: {status_str} | {customer_count} Vodacom Line(s) Down | NMS: {', '.join(nms_sorted)}"
-                macro_str = f"[082 1904 OUTAGE] FNO: Vumatel | Ref: {m_ref} | Area: {suburb_display} ({prov}) | Status: {status_str} | ETA & Update: {detail_str} | Started: {now_str} | Action: Inform customer of FNO Ref & ETA. Link case to Master Ref — do NOT book tech callout."
-                
+                addr_text = " ".join(c["address"] for c in d["cases"])
+                prov = detect_province(" ".join(suburbs_sorted) + " " + addr_text)
+                bucket = "EXTENDED (>48h)" if age_h > 48 else "ACUTE (<24h)"
+
+                detail_str = (f"⚠️ Vuma B2B NOC: {status_str} | {customer_count} Vodacom Line(s) Down | "
+                              f"NMS: {', '.join(nms_sorted) or 'n/a'} | Latest report: {started_str}")
+                macro_str = (f"[082 1904 OUTAGE] FNO: Vumatel | Ref: {m_ref} | Area: {suburb_display} ({prov}) | "
+                             f"Status: {status_str} | ETA & Update: {detail_str} | Started: {started_str} | "
+                             f"Action: Inform customer of FNO Ref & ETA. Link case to Master Ref — do NOT book tech callout.")
+
                 sheet_rows.append([
                     m_ref, "Vumatel", prov, suburb_display, bucket, status_str,
-                    detail_str, now_str, now_str, macro_str, "Vuma B2B Portal (Verified)"
+                    detail_str, started_str, now_str, macro_str, "Vuma B2B Portal (Verified)"
                 ])
-                
                 incidents.append({
                     "incidentId": m_ref,
                     "affectedCustomersCount": customer_count,
                     "incidentStatus": status_str,
                     "aggregationZones": zones_sorted,
+                    "fibrehoods": suburbs_sorted,
                     "nmsStatuses": nms_sorted,
+                    "caseIds": [c["ticketId"] for c in d["cases"]],
+                    "samplePremises": [c["address"] for c in d["cases"] if c["address"]][:3],
+                    "earliestReport": oldest.strftime("%Y-%m-%d %H:%M"),
+                    "latestReport": started_str,
+                    "maxAgeHours": round(age_h, 1),
                     "suburb": suburb_display,
                     "province": prov
                 })
@@ -613,7 +668,7 @@ def scrape_afrihost_and_octotel():
                 title = lines[i].strip()
                 block = " ".join(lines[i:min(len(lines), i+18)])
                 
-                started_at = datetime.now().strftime("%Y-%m-%d %H:%M")
+                started_at = now_sast().strftime("%Y-%m-%d %H:%M")
                 m_start = re.search(r'Planned Start Date/Time:\s*(\d{2})/(\d{2})/(\d{4})\s+(\d{2}:\d{2})', block, re.I)
                 if m_start:
                     started_at = f"{m_start.group(3)}-{m_start.group(2)}-{m_start.group(1)} {m_start.group(4)}"
@@ -656,7 +711,7 @@ def consolidate_tickets(all_tickets):
     
     result = []
     merged = set()
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
+    now_str = now_sast().strftime("%Y-%m-%d %H:%M")
 
     for i in range(len(all_tickets)):
         if i in merged:
@@ -683,6 +738,10 @@ def consolidate_tickets(all_tickets):
             if fno1 and fno2 and fno1 == fno2 and tok1 and tok2:
                 if any(tk in tok2 for tk in tok1):
                     has_suburb_match = True
+
+            both_vuma_b2b = "vuma b2b" in (t1.get("source") or "").lower() and "vuma b2b" in (t2.get("source") or "").lower()
+            if both_vuma_b2b and not same_id:
+                continue
 
             if same_id or id_in_sub or has_suburb_match:
                 merged.add(j)
@@ -770,7 +829,7 @@ def main():
     all_rows = consolidate_tickets(raw_combined)
 
     # 4. Save to JSON
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S SAST")
+    now_str = now_sast().strftime("%Y-%m-%d %H:%M:%S SAST")
     payload = {
         "lastUpdated": now_str,
         "totalOutages": len(all_rows),
