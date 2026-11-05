@@ -374,6 +374,7 @@ def scrape_vuma_b2b():
         finally:
             browser.close()
             
+    incidents.sort(key=lambda x: -int(x.get('affectedCustomersCount', 0)))
     return incidents, sheet_rows
 
 # -------------------------------------------------------------
