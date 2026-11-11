@@ -15,6 +15,7 @@ jobs:
   sync:
     name: Scrape Vuma B2B & Public FNOs
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
 
@@ -28,10 +29,17 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
+      - name: Cache Playwright Chromium Binary
+        id: playwright-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+
       - name: Install Dependencies
         run: |
           pip install -r requirements.txt
-          python -m playwright install chromium --with-deps
+          python -m playwright install chromium
 
       - name: Run Outage Scraper Engine
         env:
@@ -48,6 +56,6 @@ jobs:
           git add public/data/outages.json
           if ! git diff --quiet || ! git diff --staged --quiet; then
             git commit -m "⚡ Live FNO & Vuma B2B Outage Sync"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push origin main
           fi
