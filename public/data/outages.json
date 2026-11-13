@@ -1,14 +1,13 @@
 {
-  "lastUpdated": "2026-11-13 18:37:57 SAST",
-  "totalOutages": 169,
-  "activeCount": 149,
+  "lastUpdated": "2026-11-13 19:36:24 SAST",
+  "totalOutages": 168,
+  "activeCount": 148,
   "vumaIncidents": [
     {
       "incidentId": "INC-000036675",
-      "affectedCustomersCount": 12,
+      "affectedCustomersCount": 11,
       "incidentStatus": "Repair in progress",
       "aggregationZones": [
-        "VOSZ17-AG1",
         "VOSZ17-AG10",
         "VOSZ17-AG2",
         "VOSZ17-AG20",
@@ -38,7 +37,6 @@
         "01762707",
         "01762918",
         "01762974",
-        "01763237",
         "01763590"
       ],
       "samplePremises": [
@@ -48,8 +46,8 @@
       ],
       "earliestReport": "2026-11-13 08:45",
       "latestReport": "2026-11-13 16:57",
-      "maxAgeHours": 9.9,
-      "suburb": "Vosloorus Zone 17 Phase 1, Vosloorus Zone 17 Phase 1B, Vosloorus Zone 17 Phase 2 (Zones: VOSZ17-AG1, VOSZ17-AG10, VOSZ17-AG2, VOSZ17-AG20, VOSZ17-AG24, VOSZ17-AG32, VOSZ17-AG36, VOSZ17-AG37, VOSZ17-AG5)",
+      "maxAgeHours": 10.9,
+      "suburb": "Vosloorus Zone 17 Phase 1, Vosloorus Zone 17 Phase 1B, Vosloorus Zone 17 Phase 2 (Zones: VOSZ17-AG10, VOSZ17-AG2, VOSZ17-AG20, VOSZ17-AG24, VOSZ17-AG32, VOSZ17-AG36, VOSZ17-AG37, VOSZ17-AG5)",
       "province": "Gauteng"
     },
     {
@@ -81,7 +79,7 @@
       ],
       "earliestReport": "2026-11-04 09:12",
       "latestReport": "2026-11-12 13:42",
-      "maxAgeHours": 225.4,
+      "maxAgeHours": 226.4,
       "suburb": "Ifafi Suburb (Zones: IFF-AG03, IFF-AG04, IFF-AG06)",
       "province": "North West"
     },
@@ -112,7 +110,7 @@
       ],
       "earliestReport": "2026-11-11 15:35",
       "latestReport": "2026-11-12 11:57",
-      "maxAgeHours": 51.0,
+      "maxAgeHours": 52.0,
       "suburb": "Eagle Canyon Estate (Zones: VC-ECE-AG01)",
       "province": "Gauteng"
     },
@@ -141,7 +139,7 @@
       ],
       "earliestReport": "2024-08-07 14:08",
       "latestReport": "2026-04-12 21:01",
-      "maxAgeHours": 19876.5,
+      "maxAgeHours": 19877.5,
       "suburb": "Khayelitsha Zone 09, Khayelitsha Zone 16 (Zones: KHZ16-AG03, KHZ9-AG06)",
       "province": "Western Cape"
     },
@@ -168,13 +166,13 @@
       ],
       "earliestReport": "2026-11-12 16:34",
       "latestReport": "2026-11-13 11:48",
-      "maxAgeHours": 26.1,
+      "maxAgeHours": 27.0,
       "suburb": "KwaMashu Zone 10 (Zones: KMU-Z10-AG2)",
       "province": "National"
     },
     {
       "incidentId": "INC-000036671",
-      "affectedCustomersCount": 2,
+      "affectedCustomersCount": 1,
       "incidentStatus": "Repair in progress",
       "aggregationZones": [
         "DVL_AG01"
@@ -183,46 +181,18 @@
         "Devland"
       ],
       "nmsStatuses": [
-        "Link Is Down",
         "Unknown"
       ],
       "caseIds": [
-        "01760923",
         "01761426"
       ],
       "samplePremises": [
-        "6948 Sparkover Street Line 2, Devland, Roodepoort",
         "6914 Aambeeld Street, Devland, Roodepoort"
       ],
-      "earliestReport": "2026-11-12 17:03",
+      "earliestReport": "2026-11-12 21:13",
       "latestReport": "2026-11-12 21:13",
-      "maxAgeHours": 25.6,
+      "maxAgeHours": 22.4,
       "suburb": "Devland (Zones: DVL_AG01)",
-      "province": "Gauteng"
-    },
-    {
-      "incidentId": "INC-000036695",
-      "affectedCustomersCount": 1,
-      "incidentStatus": "Technicians collecting stock",
-      "aggregationZones": [
-        "RSV-AG09"
-      ],
-      "fibrehoods": [
-        "Rosettenville"
-      ],
-      "nmsStatuses": [
-        "Link Is Down"
-      ],
-      "caseIds": [
-        "01761774"
-      ],
-      "samplePremises": [
-        "60 Zinnia Street Line 2, Rosettenville, Johannesburg"
-      ],
-      "earliestReport": "2026-11-13 08:25",
-      "latestReport": "2026-11-13 08:25",
-      "maxAgeHours": 10.2,
-      "suburb": "Rosettenville (Zones: RSV-AG09)",
       "province": "Gauteng"
     },
     {
@@ -246,7 +216,7 @@
       ],
       "earliestReport": "2026-11-13 09:12",
       "latestReport": "2026-11-13 09:12",
-      "maxAgeHours": 9.4,
+      "maxAgeHours": 10.4,
       "suburb": "Diepkloof Phase 3 (Zones: DPK-P3-AG13)",
       "province": "Gauteng"
     }
@@ -261,7 +231,7 @@
       "Repair on-hold",
       "⚠️ Vuma B2B NOC: Repair on-hold | 2 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-04-12 21:01",
       "2026-04-12 21:01",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000000490 | Area: Khayelitsha Zone 09, Khayelitsha Zone 16 (Zones: KHZ16-AG03, KHZ9-AG06) (Western Cape) | Status: Repair on-hold | ETA & Update: ⚠️ Vuma B2B NOC: Repair on-hold | 2 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-04-12 21:01 | Started: 2026-04-12 21:01 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair on-hold | 2 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-04-12 21:01). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
@@ -274,7 +244,7 @@
       "Repair in progress",
       "⚠️ Vuma B2B NOC: Repair in progress | 4 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-12 13:42",
       "2026-11-12 13:42",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036232 | Area: Ifafi Suburb (Zones: IFF-AG03, IFF-AG04, IFF-AG06) (North West) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 4 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-12 13:42 | Started: 2026-11-12 13:42 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 4 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-12 13:42). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
@@ -287,7 +257,7 @@
       "Current Outage",
       "🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Fault is linked to a fibre break caused by municipal works in the area. Repairs have been deferred to this morning due to site access restrictions",
       "2026-11-12 11:57",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036628 | Area: Johannesburg - Roodepoort - Eagle Canyon Golf Estate (Vumatel GPON INC-000036628) (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Fault is linked to a fibre break caused by municipal works in the area. Repairs have been deferred to this morning due to site access restrictions | Started: 2026-11-12 11:57 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Fault is linked to a fibre break caused by municipal works in the area. Repairs have been deferred to this morning due to site access restrictions). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified) + Vox National NOC Table"
     ],
@@ -300,7 +270,7 @@
       "Repair in progress",
       "⚠️ Vuma B2B NOC: Repair in progress | 2 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-11-13 11:48",
       "2026-11-13 11:48",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036653 | Area: KwaMashu Zone 10 (Zones: KMU-Z10-AG2) (National) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 2 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-11-13 11:48 | Started: 2026-11-13 11:48 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 2 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-11-13 11:48). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified)"
     ],
@@ -311,36 +281,23 @@
       "Devland (Zones: DVL_AG01)",
       "ACUTE (<24h)",
       "Repair in progress",
-      "⚠️ Vuma B2B NOC: Repair in progress | 2 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-12 21:13",
+      "⚠️ Vuma B2B NOC: Repair in progress | 1 Vodacom Line(s) Down | NMS: Unknown | Latest report: 2026-11-12 21:13",
       "2026-11-12 21:13",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036671 | Area: Devland (Zones: DVL_AG01) (Gauteng) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 2 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-12 21:13 | Started: 2026-11-12 21:13 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 2 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-12 21:13). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036671 | Area: Devland (Zones: DVL_AG01) (Gauteng) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 1 Vodacom Line(s) Down | NMS: Unknown | Latest report: 2026-11-12 21:13 | Started: 2026-11-12 21:13 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 1 Vodacom Line(s) Down | NMS: Unknown | Latest report: 2026-11-12 21:13). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified) + Cool Ideas Outages P2"
-    ],
-    [
-      "INC-000036695",
-      "Vumatel",
-      "Gauteng",
-      "Rosettenville (Zones: RSV-AG09)",
-      "ACUTE (<24h)",
-      "Technicians collecting stock",
-      "⚠️ Vuma B2B NOC: Technicians collecting stock | 1 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-11-13 08:25",
-      "2026-11-13 08:25",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036695 | Area: Rosettenville (Zones: RSV-AG09) (Gauteng) | Status: Technicians collecting stock | ETA & Update: ⚠️ Vuma B2B NOC: Technicians collecting stock | 1 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-11-13 08:25 | Started: 2026-11-13 08:25 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Technicians collecting stock | 1 Vodacom Line(s) Down | NMS: Link Is Down | Latest report: 2026-11-13 08:25). Link case to Master Ref — do NOT book tech callout.",
-      "Vuma B2B Portal (Verified)"
     ],
     [
       "INC-000036675",
       "Vumatel",
       "Gauteng",
-      "Vosloorus Zone 17 Phase 1, Vosloorus Zone 17 Phase 1B, Vosloorus Zone 17 Phase 2 (Zones: VOSZ17-AG1, VOSZ17-AG10, VOSZ17-AG2, VOSZ17-AG20, VOSZ17-AG24, VOSZ17-AG32, VOSZ17-AG36, VOSZ17-AG37, VOSZ17-AG5)",
+      "Vosloorus Zone 17 Phase 1, Vosloorus Zone 17 Phase 1B, Vosloorus Zone 17 Phase 2 (Zones: VOSZ17-AG10, VOSZ17-AG2, VOSZ17-AG20, VOSZ17-AG24, VOSZ17-AG32, VOSZ17-AG36, VOSZ17-AG37, VOSZ17-AG5)",
       "ACUTE (<24h)",
       "Repair in progress",
-      "⚠️ Vuma B2B NOC: Repair in progress | 12 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-13 16:57",
+      "⚠️ Vuma B2B NOC: Repair in progress | 11 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-13 16:57",
       "2026-11-13 16:57",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036675 | Area: Vosloorus Zone 17 Phase 1, Vosloorus Zone 17 Phase 1B, Vosloorus Zone 17 Phase 2 (Zones: VOSZ17-AG1, VOSZ17-AG10, VOSZ17-AG2, VOSZ17-AG20, VOSZ17-AG24, VOSZ17-AG32, VOSZ17-AG36, VOSZ17-AG37, VOSZ17-AG5) (Gauteng) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 12 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-13 16:57 | Started: 2026-11-13 16:57 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 12 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-13 16:57). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036675 | Area: Vosloorus Zone 17 Phase 1, Vosloorus Zone 17 Phase 1B, Vosloorus Zone 17 Phase 2 (Zones: VOSZ17-AG10, VOSZ17-AG2, VOSZ17-AG20, VOSZ17-AG24, VOSZ17-AG32, VOSZ17-AG36, VOSZ17-AG37, VOSZ17-AG5) (Gauteng) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 11 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-13 16:57 | Started: 2026-11-13 16:57 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 11 Vodacom Line(s) Down | NMS: Link Is Down, Unknown | Latest report: 2026-11-13 16:57). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified) + Cool Ideas Outages P2"
     ],
     [
@@ -352,7 +309,7 @@
       "Repair in progress",
       "⚠️ Vuma B2B NOC: Repair in progress | 1 Vodacom Line(s) Down | NMS: Unknown | Latest report: 2026-11-13 09:12",
       "2026-11-13 09:12",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036690 | Area: Diepkloof Phase 3 (Zones: DPK-P3-AG13) (Gauteng) | Status: Repair in progress | ETA & Update: ⚠️ Vuma B2B NOC: Repair in progress | 1 Vodacom Line(s) Down | NMS: Unknown | Latest report: 2026-11-13 09:12 | Started: 2026-11-13 09:12 | Action: Inform customer of FNO Ref & ETA (⚠️ Vuma B2B NOC: Repair in progress | 1 Vodacom Line(s) Down | NMS: Unknown | Latest report: 2026-11-13 09:12). Link case to Master Ref — do NOT book tech callout.",
       "Vuma B2B Portal (Verified) + Cool Ideas Outages"
     ],
@@ -365,7 +322,7 @@
       "Current Outage",
       "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Live FNO notice (FNO Partner)",
       "2026-11-13 07:33",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: FNO Partner | Ref: FNO-COOLIDEASEMAILSUPP | Area: Cool Ideas Email support (National) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Live FNO notice (FNO Partner) | Started: 2026-11-13 07:33 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Live FNO notice (FNO Partner)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages + Cool Ideas Current"
     ],
@@ -376,10 +333,10 @@
       "George, Kleinbrak, Knysna, Sedgefield, Plettenberg Bay",
       "ACUTE (<24h)",
       "Current Outage",
-      "🚧 Derived ETA: within 24h (21h elapsed | Civil Rebuild SLA) | Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, and Sedgefield. Affected clients will experience limited to no connectivity. Octotel engi",
+      "🚧 Derived ETA: within 24h (22h elapsed | Civil Rebuild SLA) | Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, and Sedgefield. Affected clients will experience limited to no connectivity. Octotel engi",
       "2026-11-13 16:42",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Octotel | Ref: FRG17120034 | Area: George, Kleinbrak, Knysna, Sedgefield, Plettenberg Bay (Gauteng) | Status: Current Outage | ETA & Update: 🚧 Derived ETA: within 24h (21h elapsed | Civil Rebuild SLA) | Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, and Sedgefield. Affected clients will experience limited to no connectivity. Octotel engi | Started: 2026-11-13 16:42 | Action: Inform customer of FNO Ref & ETA (🚧 Derived ETA: within 24h (21h elapsed | Civil Rebuild SLA) | Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, and Sedgefield. Affected clients will experience limited to no connectivity. Octotel engi). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Octotel | Ref: FRG17120034 | Area: George, Kleinbrak, Knysna, Sedgefield, Plettenberg Bay (Gauteng) | Status: Current Outage | ETA & Update: 🚧 Derived ETA: within 24h (22h elapsed | Civil Rebuild SLA) | Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, and Sedgefield. Affected clients will experience limited to no connectivity. Octotel engi | Started: 2026-11-13 16:42 | Action: Inform customer of FNO Ref & ETA (🚧 Derived ETA: within 24h (22h elapsed | Civil Rebuild SLA) | Octotel has informed us of a network outage affecting George, Kleinbrak, Knysna, and Sedgefield. Affected clients will experience limited to no connectivity. Octotel engi). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages + Cool Ideas (Octotel) + Cool Ideas (Frogfoot) + Afrihost Status (Live) + Octotel Official NOC"
     ],
     [
@@ -391,7 +348,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Frogfoot)",
       "2026-11-13 16:26",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17122322 | Area: Stellenbosch - FRG17122322 (Western Cape) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Frogfoot) | Started: 2026-11-13 16:26 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas Outages"
     ],
@@ -402,10 +359,10 @@
       "Amarosa - INC-000036665",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟡 Derived ETA: ~4.4h left (4–6h Node SLA) | Live FNO notice (FMAS Networks)",
+      "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (FMAS Networks)",
       "2026-11-13 16:03",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: FMAS Networks | Ref: INC-000036665 | Area: Amarosa - INC-000036665 (National) | Status: Current Outage | ETA & Update: 🟡 Derived ETA: ~4.4h left (4–6h Node SLA) | Live FNO notice (FMAS Networks) | Started: 2026-11-13 16:03 | Action: Inform customer of FNO Ref & ETA (🟡 Derived ETA: ~4.4h left (4–6h Node SLA) | Live FNO notice (FMAS Networks)). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: FMAS Networks | Ref: INC-000036665 | Area: Amarosa - INC-000036665 (National) | Status: Current Outage | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (FMAS Networks) | Started: 2026-11-13 16:03 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (FMAS Networks)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages"
     ],
     [
@@ -417,7 +374,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)",
       "2026-11-13 15:24",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036663 | Area: Northcliff-ds- INC-000036663 (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel) | Started: 2026-11-13 15:24 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas Outages"
     ],
@@ -428,24 +385,24 @@
       "Homestead Park- INC-000036689",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟡 Derived ETA: ~3.4h left (4–6h Node SLA) | Live FNO notice (Vumatel)",
+      "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)",
       "2026-11-13 15:03",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036689 | Area: Homestead Park- INC-000036689 (KwaZulu-Natal) | Status: Current Outage | ETA & Update: 🟡 Derived ETA: ~3.4h left (4–6h Node SLA) | Live FNO notice (Vumatel) | Started: 2026-11-13 15:03 | Action: Inform customer of FNO Ref & ETA (🟡 Derived ETA: ~3.4h left (4–6h Node SLA) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036689 | Area: Homestead Park- INC-000036689 (KwaZulu-Natal) | Status: Current Outage | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel) | Started: 2026-11-13 15:03 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages"
     ],
     [
       "MET-PIETERMARITZBURG17",
       "MetroFibre",
       "KwaZulu-Natal",
-      "Pietermaritzburg - 1729413",
+      "Pietermaritzburg (MetroFibre FTTH 1729413)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟡 Derived ETA: ~2.6h left (4–6h Node SLA) | Live FNO notice (MetroFibre)",
+      "✅ Restored (Advise 2-min ONT Reboot) | Update (13/11/2026 @12:16) Our techies are on site attending to the fibre repairs in Prestbury and Lester Park caused by municipal works. The ETR is currently a",
       "2026-11-13 14:15",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-PIETERMARITZBURG17 | Area: Pietermaritzburg - 1729413 (KwaZulu-Natal) | Status: Current Outage | ETA & Update: 🟡 Derived ETA: ~2.6h left (4–6h Node SLA) | Live FNO notice (MetroFibre) | Started: 2026-11-13 14:15 | Action: Inform customer of FNO Ref & ETA (🟡 Derived ETA: ~2.6h left (4–6h Node SLA) | Live FNO notice (MetroFibre)). Link case to Master Ref — do NOT book tech callout.",
-      "Cool Ideas Outages"
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-PIETERMARITZBURG17 | Area: Pietermaritzburg (MetroFibre FTTH 1729413) (KwaZulu-Natal) | Status: Current Outage | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Update (13/11/2026 @12:16) Our techies are on site attending to the fibre repairs in Prestbury and Lester Park caused by municipal works. The ETR is currently a | Started: 2026-11-13 14:15 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Update (13/11/2026 @12:16) Our techies are on site attending to the fibre repairs in Prestbury and Lester Park caused by municipal works. The ETR is currently a). Link case to Master Ref — do NOT book tech callout.",
+      "Cool Ideas Outages + Vox National NOC Table"
     ],
     [
       "INC-000036684",
@@ -456,7 +413,7 @@
       "Current Outage",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (MetroFibre)",
       "2026-11-13 14:11",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: MetroFibre | Ref: INC-000036684 | Area: Tshwane_Regional_Mall_DF16_FTTB - INC-000036684 (KwaZulu-Natal) | Status: Current Outage | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (MetroFibre) | Started: 2026-11-13 14:11 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (MetroFibre)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2"
     ],
@@ -469,7 +426,7 @@
       "Current Outage",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)",
       "2026-11-13 13:52",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036683 | Area: Chatsworth Zone 09 - INC-000036683 (KwaZulu-Natal) | Status: Current Outage | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel) | Started: 2026-11-13 13:52 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2"
     ],
@@ -482,7 +439,7 @@
       "Current Outage",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)",
       "2026-11-13 12:26",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036679 | Area: Soshanguve Zone 4 - INC-000036679 (National) | Status: Current Outage | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel) | Started: 2026-11-13 12:26 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2"
     ],
@@ -493,10 +450,10 @@
       "Johannesburg South - Liefde En Vrede (Vumatel AE INC-000036676)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault",
       "2026-11-13 12:24",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036676 | Area: Johannesburg South - Liefde En Vrede (Vumatel AE INC-000036676) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault | Started: 2026-11-13 12:24 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036676 | Area: Johannesburg South - Liefde En Vrede (Vumatel AE INC-000036676) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault | Started: 2026-11-13 12:24 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2 + Vox National NOC Table"
     ],
     [
@@ -506,10 +463,10 @@
       "Johannesburg - Sandton - Bryanston - East (Vumatel AE INC-000036674)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending",
       "2026-11-13 11:52",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036674 | Area: Johannesburg - Sandton - Bryanston - East (Vumatel AE INC-000036674) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending | Started: 2026-11-13 11:52 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036674 | Area: Johannesburg - Sandton - Bryanston - East (Vumatel AE INC-000036674) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending | Started: 2026-11-13 11:52 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2 + Cool Ideas Maint + Cool Ideas Current + Cool Ideas (Vumatel) + Vox National NOC Table"
     ],
     [
@@ -521,7 +478,7 @@
       "Current Outage",
       "🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-13 11:46",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036670 | Area: Pretoria - Faerie Glen (Vumatel GPON CHG-000020849) (Gauteng) | Status: Current Outage | ETA & Update: 🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-13 11:46 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2 + Vox National NOC Table"
     ],
@@ -532,10 +489,10 @@
       "Zamdela Phase - INC-000036669",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~5.1h left (8–12h Fibre Splice SLA) | Live FNO notice (Vumatel)",
+      "🟠 Derived ETA: ~4.1h left (8–12h Fibre Splice SLA) | Live FNO notice (Vumatel)",
       "2026-11-13 11:42",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036669 | Area: Zamdela Phase - INC-000036669 (National) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~5.1h left (8–12h Fibre Splice SLA) | Live FNO notice (Vumatel) | Started: 2026-11-13 11:42 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~5.1h left (8–12h Fibre Splice SLA) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036669 | Area: Zamdela Phase - INC-000036669 (National) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~4.1h left (8–12h Fibre Splice SLA) | Live FNO notice (Vumatel) | Started: 2026-11-13 11:42 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~4.1h left (8–12h Fibre Splice SLA) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Outages P2"
     ],
     [
@@ -547,7 +504,7 @@
       "Planned Maintenance",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (FNO Partner)",
       "2026-11-05 09:58",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: FNO Partner | Ref: FNO-ALLINTERNATIONALTR | Area: All International traffic (National) | Status: Planned Maintenance | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (FNO Partner) | Started: 2026-11-05 09:58 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (FNO Partner)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Maint + Cool Ideas Current"
     ],
@@ -560,7 +517,7 @@
       "Planned Maintenance",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)",
       "2026-10-30 14:39",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: FRG16990134 | Area: Edenburg & Bryanston - FRG16990134 (Gauteng) | Status: Planned Maintenance | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel) | Started: 2026-10-30 14:39 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Maint + Cool Ideas Current + Cool Ideas (Vumatel) + Cool Ideas (Frogfoot)"
     ],
@@ -573,7 +530,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Cybersmart)",
       "2026-11-18 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Cybersmart | Ref: CHG-000021154 | Area: La Lucia Ridge - CHG-000021154 (National) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Cybersmart) | Started: 2026-11-18 08:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Cybersmart)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Maint + Cool Ideas Current + Cool Ideas (Vumatel)"
     ],
@@ -586,7 +543,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Open Fibre)",
       "2026-11-17 12:47",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Open Fibre | Ref: FRG17000432 | Area: Kempton Park, Polokwane and Rustenburg - FRG17000432 (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Open Fibre) | Started: 2026-11-17 12:47 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Open Fibre)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Maint + Cool Ideas Current + Cool Ideas (Frogfoot)"
     ],
@@ -599,7 +556,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026",
       "2026-11-17 12:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020906 | Area: East Rand - Benoni - Kleinfontein (Vumatel GPON CHG-000020906) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026 | Started: 2026-11-17 12:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Maint + Cool Ideas Current + Cool Ideas (Vumatel) + Vox National NOC Table"
     ],
@@ -612,7 +569,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vuma Reach)",
       "2026-11-17 10:08",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vuma Reach | Ref: CHG-000021076 | Area: Gonubie - 6908 - CHG-000021076 (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vuma Reach) | Started: 2026-11-17 10:08 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vuma Reach)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas Current + Cool Ideas (Vumatel)"
     ],
@@ -625,7 +582,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)",
       "2026-11-16 13:28",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021173 | Area: Dundee; Durban; Glencoe; Ladysmith; Pietermaritzburg - CHG-000021173 (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel) | Started: 2026-11-16 13:28 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Vumatel)"
     ],
@@ -638,7 +595,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)",
       "2026-11-16 11:58",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020869 | Area: The Atrium; Edenburg - CHG-000020869 (National) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel) | Started: 2026-11-16 11:58 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Vumatel)"
     ],
@@ -651,7 +608,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)",
       "2026-11-15 10:52",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021122 | Area: Westview Security Estate; Andeon AH - CHG-000021122 (Western Cape) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel) | Started: 2026-11-15 10:52 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Vumatel)"
     ],
@@ -664,7 +621,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)",
       "2026-11-14 16:56",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021187 | Area: The Crest; Durmonte & Goedemoed - CHG-000021187 (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel) | Started: 2026-11-14 16:56 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Vumatel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Vumatel)"
     ],
@@ -677,7 +634,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026",
       "2026-11-14 16:53",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021162 | Area: Johannesburg - Randburg - Ferndale (Vumatel FTTH CHG-000021162) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026 | Started: 2026-11-14 16:53 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Vumatel) + Vox National NOC Table"
     ],
@@ -690,7 +647,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel)",
       "2026-11-16 13:37",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-GREENPOINT | Area: Greenpoint (Western Cape) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel) | Started: 2026-11-16 13:37 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Octotel)"
     ],
@@ -703,7 +660,7 @@
       "Planned Maintenance",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Octotel)",
       "2026-11-12 15:12",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-GRABOUW | Area: Grabouw (Western Cape) | Status: Planned Maintenance | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Octotel) | Started: 2026-11-12 15:12 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Octotel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Octotel)"
     ],
@@ -714,10 +671,10 @@
       "Somerset Degraded",
       "ACUTE (<24h)",
       "Current Outage",
-      "🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Somerset, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th",
+      "🔴 SLA Breached (1.2d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Somerset, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th",
       "2026-11-12 13:41",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-SOMERSET | Area: Somerset Degraded (Western Cape) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Somerset, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th | Started: 2026-11-12 13:41 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Somerset, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-SOMERSET | Area: Somerset Degraded (Western Cape) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.2d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Somerset, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th | Started: 2026-11-12 13:41 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.2d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Somerset, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Octotel) + Afrihost Status (Live)"
     ],
     [
@@ -727,10 +684,10 @@
       "Next: November 14, 2026 · Emergency Hardware Maintenance : Blouberg | 16 November 2026",
       "ACUTE (<24h)",
       "Current Outage",
-      "🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th",
+      "🔴 SLA Breached (1.2d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th",
       "2026-11-12 13:37",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-BLOUBERG | Area: Next: November 14, 2026 · Emergency Hardware Maintenance : Blouberg | 16 November 2026 (Western Cape) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th | Started: 2026-11-12 13:37 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-BLOUBERG | Area: Next: November 14, 2026 · Emergency Hardware Maintenance : Blouberg | 16 November 2026 (Western Cape) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.2d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th | Started: 2026-11-12 13:37 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.2d elapsed) — Civil/Wayleave Fault | Octotel has informed us of a network outage affecting Blouberg, affected clients will experience limited to no connectivity. Octotel engineers are working on resolving th). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Octotel) + Afrihost Status (Live) + Octotel Official NOC"
     ],
     [
@@ -742,7 +699,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel)",
       "2026-11-09 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-ATHLONE | Area: Athlone (Western Cape) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel) | Started: 2026-11-09 08:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Octotel)"
     ],
@@ -755,7 +712,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel)",
       "2026-11-03 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-OBSERVATORYWOODSTO | Area: Observatory, Woodstock, Salt River, Cape Town CBD, Gardens and District Six (Western Cape) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel) | Started: 2026-11-03 08:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Octotel)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Octotel)"
     ],
@@ -766,10 +723,10 @@
       "Stretford",
       "ACUTE (<24h)",
       "Current Outage",
-      "🔴 SLA Breached (7.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre)",
+      "🔴 SLA Breached (7.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre)",
       "2026-11-06 10:52",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-STRETFORD | Area: Stretford (National) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (7.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre) | Started: 2026-11-06 10:52 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (7.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre)). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-STRETFORD | Area: Stretford (National) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (7.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre) | Started: 2026-11-06 10:52 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (7.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Zoom Fibre)"
     ],
     [
@@ -781,7 +738,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre)",
       "2026-11-06 10:42",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-LONGACRES | Area: Long Acres (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre) | Started: 2026-11-06 10:42 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Zoom Fibre)"
     ],
@@ -794,7 +751,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre)",
       "2026-11-02 06:33",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-HEIDELBERG | Area: Heidelberg (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre) | Started: 2026-11-02 06:33 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Zoom Fibre)"
     ],
@@ -807,7 +764,7 @@
       "Current Outage",
       "🔴 SLA Breached (16.4d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre)",
       "2026-10-28 07:27",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-LETHLABILE | Area: Lethlabile (Western Cape) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (16.4d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre) | Started: 2026-10-28 07:27 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (16.4d elapsed) — Civil/Wayleave Fault | Live FNO notice (Zoom Fibre)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Zoom Fibre)"
     ],
@@ -820,7 +777,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre)",
       "2026-10-23 13:15",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-GOLDENGARDENSHOPEF | Area: Golden Gardens, Hopefield, Jacobs Bay, Langebaan, Paternoster, Saldanha Bay, St. Helena and Vredenburg (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre) | Started: 2026-10-23 13:15 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Zoom Fibre)"
     ],
@@ -833,7 +790,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre)",
       "2026-10-19 12:12",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Zoom Fibre | Ref: ZOO-STANDERTON | Area: Standerton (Mpumalanga) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Zoom Fibre) | Started: 2026-10-19 12:12 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Zoom Fibre)"
     ],
@@ -846,7 +803,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 22:00 on 16/11/2026 → 08:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 16/11/2026 to 08:00 on 17/11/2026",
       "2026-11-14 13:46",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: OPE-HONEYDEWTOPANORAMA | Area: Johannesburg - Roodepoort - Honeydew (Openserve FTTH NN0104592) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 22:00 on 16/11/2026 → 08:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 16/11/2026 to 08:00 on 17/11/2026 | Started: 2026-11-14 13:46 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 22:00 on 16/11/2026 → 08:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 16/11/2026 to 08:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Openserve) + Vox National NOC Table"
     ],
@@ -859,7 +816,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 → 23:59 on 16/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 08:00 to 23:59 on 16/11/2026",
       "2026-11-12 16:01",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: OPE-LENASIA | Area: Johannesburg - Lenasia (Openserve FTTH NN0104605) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 → 23:59 on 16/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 08:00 to 23:59 on 16/11/2026 | Started: 2026-11-12 16:01 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 → 23:59 on 16/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 08:00 to 23:59 on 16/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Openserve) + Vox National NOC Table"
     ],
@@ -872,7 +829,7 @@
       "Current Outage",
       "🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Live FNO notice (Openserve)",
       "2026-11-12 14:52",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: OPE-KINGSVIEWMPUMALANG | Area: Kingsview, Mpumalanga - 132ATK121126 (Mpumalanga) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Live FNO notice (Openserve) | Started: 2026-11-12 14:52 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.1d elapsed) — Civil/Wayleave Fault | Live FNO notice (Openserve)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Openserve)"
     ],
@@ -885,7 +842,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Openserve)",
       "2026-11-11 16:42",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: OPE-NELSPRUITAE795925 | Area: Nelspruit -AE 795925 (Mpumalanga) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Openserve) | Started: 2026-11-11 16:42 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Openserve)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Openserve)"
     ],
@@ -898,7 +855,7 @@
       "Current Outage",
       "🔴 SLA Breached (2.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Openserve)",
       "2026-11-11 12:55",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: OPE-STRANDFONTEIN52AWK | Area: Strandfontein - 52AWK111126 (National) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (2.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Openserve) | Started: 2026-11-11 12:55 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (2.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Openserve)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Openserve)"
     ],
@@ -911,7 +868,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Openserve)",
       "2026-11-10 18:04",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: OPE-THEWILLOWSEXCHANGE | Area: Carters Ridge Exchange to Kimberley - AE 796187 (Northern Cape) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Openserve) | Started: 2026-11-10 18:04 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Openserve)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Openserve)"
     ],
@@ -924,7 +881,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 18/11/2026 → 07:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 07:00 on 19/11/2026",
       "2026-11-16 12:59",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16774001 | Area: Johannesburg - Sandton - Bryanston (Frogfoot FTTB FRG16774001) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 18/11/2026 → 07:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 07:00 on 19/11/2026 | Started: 2026-11-16 12:59 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 18/11/2026 → 07:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 07:00 on 19/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Frogfoot) + Vox National NOC Table"
     ],
@@ -937,7 +894,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 18/11/2026 → 05:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 05:00 on 19/11/2026",
       "2026-11-16 10:41",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16772365 | Area: Pretoria (Frogfoot FTTB FRG16772365) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 18/11/2026 → 05:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 05:00 on 19/11/2026 | Started: 2026-11-16 10:41 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 18/11/2026 → 05:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 05:00 on 19/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Frogfoot) + Vox National NOC Table"
     ],
@@ -950,7 +907,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 17/11/2026 → 07:00 on 18/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 17/11/2026 to 07:00 on 18/11/2026",
       "2026-11-15 12:50",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16854246 | Area: Johannesburg Region (Frogfoot FTTB FRG16854246) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 17/11/2026 → 07:00 on 18/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 17/11/2026 to 07:00 on 18/11/2026 | Started: 2026-11-15 12:50 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 17/11/2026 → 07:00 on 18/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 17/11/2026 to 07:00 on 18/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Frogfoot) + Vox National NOC Table"
     ],
@@ -963,7 +920,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 → 17:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 09:00 to 17:00 on 17/11/2026",
       "2026-11-15 12:18",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17067664 | Area: Cape Town - Gordons Bay (Frogfoot FTTH FRG17067664) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 → 17:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 09:00 to 17:00 on 17/11/2026 | Started: 2026-11-15 12:18 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 → 17:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 09:00 to 17:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Frogfoot) + Vox National NOC Table"
     ],
@@ -976,7 +933,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 16/11/2026 until 27/11/2026 between 17:00 and 21:00",
       "2026-11-14 13:35",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17099413 | Area: Cape Town - Ottery (Frogfoot FTTB FRG17099413) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 16/11/2026 until 27/11/2026 between 17:00 and 21:00 | Started: 2026-11-14 13:35 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 16/11/2026 until 27/11/2026 between 17:00 and 21:00). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Frogfoot) + Vox National NOC Table"
     ],
@@ -989,7 +946,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Frogfoot)",
       "2026-11-13 16:36",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17073823 | Area: George to Knysna - FRG17073823 (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Frogfoot) | Started: 2026-11-13 16:36 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Frogfoot)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Frogfoot)"
     ],
@@ -1002,7 +959,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel)",
       "2026-11-11 12:21",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-LENASIA | Area: Lenasia (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel) | Started: 2026-11-11 12:21 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Evotel)"
     ],
@@ -1015,7 +972,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel)",
       "2026-11-09 15:26",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-NEWCASTLE | Area: Newcastle (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel) | Started: 2026-11-09 15:26 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Evotel)"
     ],
@@ -1028,7 +985,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel)",
       "2026-11-08 12:20",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-MILLENNIALILLALARI | Area: Millennial / Illalaridge / Mount Edgecombe (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel) | Started: 2026-11-08 12:20 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Evotel)"
     ],
@@ -1041,7 +998,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel)",
       "2026-11-08 12:18",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-RIEBEEKSTAD | Area: Riebeekstad (KwaZulu-Natal) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel) | Started: 2026-11-08 12:18 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Evotel)"
     ],
@@ -1054,7 +1011,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel)",
       "2026-11-06 16:14",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-VERULAMCHANCERYAND | Area: Verulam (Chancery and Piccadilly Road) (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel) | Started: 2026-11-06 16:14 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Evotel)"
     ],
@@ -1067,7 +1024,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel)",
       "2026-10-28 12:49",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-LADYSMITH | Area: Ladysmith (KwaZulu-Natal) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Evotel) | Started: 2026-10-28 12:49 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Evotel)"
     ],
@@ -1080,7 +1037,7 @@
       "Current Outage",
       "🔴 SLA Breached (25.0d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)",
       "2026-10-19 17:16",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-ACCESSCITYOAKDENEG | Area: Access City, Oakdene, Germiston, and Alberton - INC0111090 (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (25.0d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa) | Started: 2026-10-19 17:16 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (25.0d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Link Africa)"
     ],
@@ -1091,10 +1048,10 @@
       "Katara Estate , Midrand",
       "ACUTE (<24h)",
       "Current Outage",
-      "🔴 SLA Breached (92.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)",
+      "🔴 SLA Breached (92.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)",
       "2026-08-13 11:14",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-KATARAESTATEMIDRAN | Area: Katara Estate , Midrand (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (92.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa) | Started: 2026-08-13 11:14 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (92.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-KATARAESTATEMIDRAN | Area: Katara Estate , Midrand (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (92.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa) | Started: 2026-08-13 11:14 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (92.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Link Africa)"
     ],
     [
@@ -1106,7 +1063,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa)",
       "2026-07-28 16:15",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-NOORDWYK | Area: Noordwyk (Midrand) (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa) | Started: 2026-07-28 16:15 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Link Africa)"
     ],
@@ -1117,10 +1074,10 @@
       "Midrand",
       "ACUTE (<24h)",
       "Current Outage",
-      "🔴 SLA Breached (164.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)",
+      "🔴 SLA Breached (164.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)",
       "2026-06-02 11:17",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-MIDRAND | Area: Midrand (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (164.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa) | Started: 2026-06-02 11:17 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (164.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-MIDRAND | Area: Midrand (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (164.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa) | Started: 2026-06-02 11:17 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (164.3d elapsed) — Civil/Wayleave Fault | Live FNO notice (Link Africa)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Link Africa)"
     ],
     [
@@ -1132,7 +1089,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa)",
       "2026-03-30 12:14",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-MIDRANDINC0062615 | Area: Midrand - INC0062615 (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa) | Started: 2026-03-30 12:14 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Link Africa)"
     ],
@@ -1145,7 +1102,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa)",
       "2026-03-13 16:23",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-BEDFORDVIEW | Area: Bedfordview (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa) | Started: 2026-03-13 16:23 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Link Africa)"
     ],
@@ -1158,7 +1115,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa)",
       "2026-01-17 17:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Link Africa | Ref: LIN-EMERGENCYPLANNEDWO | Area: Emergency Planned Work Notification | Joint Rehabilitation | Rosebank | 17/01/2026 (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Link Africa) | Started: 2026-01-17 17:00 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Link Africa)"
     ],
@@ -1171,7 +1128,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA)",
       "2026-11-12 07:38",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: DFA | Ref: 406291 | Area: Sandton Drive, Johannesburg - 406291 (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA) | Started: 2026-11-12 07:38 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (DFA)"
     ],
@@ -1184,7 +1141,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA)",
       "2026-11-03 12:25",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: DFA | Ref: DFA-MIDRAND407128 | Area: Midrand - 407128 (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA) | Started: 2026-11-03 12:25 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (DFA)"
     ],
@@ -1197,7 +1154,7 @@
       "Planned Maintenance",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (DFA)",
       "2026-11-02 17:16",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: DFA | Ref: DFA-MIDRANDRIVONIATURF | Area: Midrand, Rivonia, Turfontein and Rynfield-406440 (Gauteng) | Status: Planned Maintenance | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (DFA) | Started: 2026-11-02 17:16 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (DFA)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (DFA)"
     ],
@@ -1210,7 +1167,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA)",
       "2026-10-29 10:06",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: DFA | Ref: 406420 | Area: Sandton Drive (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA) | Started: 2026-10-29 10:06 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (DFA)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (DFA)"
     ],
@@ -1223,7 +1180,7 @@
       "Current Outage",
       "🔴 SLA Breached (6.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)",
       "2026-11-13 11:14",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-ROYALREEFWESTANDRO | Area: Royal Reef West, and Royal Residenz - Lilianton (National) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (6.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access) | Started: 2026-11-13 11:14 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (6.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1236,7 +1193,7 @@
       "Planned Maintenance",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Clear Access)",
       "2026-11-12 17:43",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-WESTWOOD | Area: Westwood Estate (National) | Status: Planned Maintenance | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Clear Access) | Started: 2026-11-12 17:43 | Action: Inform customer of FNO Ref & ETA (✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1249,7 +1206,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Clear Access)",
       "2026-11-12 17:37",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-MALACHITEMEWS | Area: Malachite Mews (National) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Clear Access) | Started: 2026-11-12 17:37 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1262,7 +1219,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Clear Access)",
       "2026-11-12 17:06",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-THERESTESTATE | Area: The Rest Estate (National) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Clear Access) | Started: 2026-11-12 17:06 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1275,7 +1232,7 @@
       "Current Outage",
       "🔴 SLA Breached (6.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)",
       "2026-11-07 11:39",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-GLENVISTA | Area: Glenvista (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (6.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access) | Started: 2026-11-07 11:39 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (6.2d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1288,7 +1245,7 @@
       "Current Outage",
       "🔴 SLA Breached (7.1d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)",
       "2026-11-06 15:02",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-STVINCENTBENONI | Area: ST Vincent - Benoni (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (7.1d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access) | Started: 2026-11-06 15:02 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (7.1d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1301,7 +1258,7 @@
       "Current Outage",
       "🔴 SLA Breached (8.4d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)",
       "2026-11-05 07:36",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-CLOVEDENE | Area: Clovedene (National) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (8.4d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access) | Started: 2026-11-05 07:36 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (8.4d elapsed) — Civil/Wayleave Fault | Live FNO notice (Clear Access)). Link case to Master Ref — do NOT book tech callout.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1314,7 +1271,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Clear Access)",
       "2026-11-05 07:24",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Clear Access | Ref: CLE-SYDNEYPARKANDSYDNE | Area: Sydney Park and Sydney Court (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Clear Access) | Started: 2026-11-05 07:24 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Clear Access)"
     ],
@@ -1327,7 +1284,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Waterfall Access Networks)",
       "2025-11-29 11:16",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Waterfall Access Networks | Ref: WAT-WATERFALL | Area: Waterfall Equestrian Estate,Waterfall Country Estate (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Live FNO notice (Waterfall Access Networks) | Started: 2025-11-29 11:16 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Cool Ideas (Waterfall)"
     ],
@@ -1340,7 +1297,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 22/11/2026 → 07:00 on 23/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 22/11/2026 to 07:00 on 23/11/2026",
       "2026-11-22 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16855157 | Area: Pietermaritzburg (Frogfoot FTTB FRG16855157) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 22/11/2026 → 07:00 on 23/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 22/11/2026 to 07:00 on 23/11/2026 | Started: 2026-11-22 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 22/11/2026 → 07:00 on 23/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 22/11/2026 to 07:00 on 23/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1353,7 +1310,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026",
       "2026-11-19 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16880712 | Area: East Rand (Frogfoot FTTB FRG16880712) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026 | Started: 2026-11-19 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1366,7 +1323,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026",
       "2026-11-19 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16853348 | Area: Durban Metro (Frogfoot FTTB FRG16853348) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026 | Started: 2026-11-19 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1379,7 +1336,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026",
       "2026-11-19 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16879837 | Area: Johannesburg - Randburg (Frogfoot FTTB FRG16879837) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026 | Started: 2026-11-19 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 19/11/2026 → 07:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 07:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1392,7 +1349,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 19/11/2026 → 12:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 12:00 on 20/11/2026",
       "2026-11-19 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16880864 | Area: Pretoria (Frogfoot FTTB FRG16880864) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 19/11/2026 → 12:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 12:00 on 20/11/2026 | Started: 2026-11-19 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 19/11/2026 → 12:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 19/11/2026 to 12:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1405,7 +1362,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 18/11/2026 → 07:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 07:00 on 19/11/2026",
       "2026-11-18 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16775462 | Area: Durban Metro (Frogfoot FTTB FRG16775462) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 18/11/2026 → 07:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 07:00 on 19/11/2026 | Started: 2026-11-18 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 18/11/2026 → 07:00 on 19/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 18/11/2026 to 07:00 on 19/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1418,7 +1375,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 17/11/2026 → 05:00 on 18/11/2026 SAST | Please note that Liquid engineers will be conducting maintenance from 23:00 on 17/11/2026 to 05:00 on 18/11/2026",
       "2026-11-17 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Liquid Telecom | Ref: LIQ-LIQUIDCHG0115823NA | Area: Liquid CHG0115823 (National) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 17/11/2026 → 05:00 on 18/11/2026 SAST | Please note that Liquid engineers will be conducting maintenance from 23:00 on 17/11/2026 to 05:00 on 18/11/2026 | Started: 2026-11-17 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 17/11/2026 → 05:00 on 18/11/2026 SAST | Please note that Liquid engineers will be conducting maintenance from 23:00 on 17/11/2026 to 05:00 on 18/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1431,7 +1388,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 17/11/2026 → 05:00 on 18/11/2026 SAST | Please note that Metrofibre engineers will be conducting maintenance from 23:00 on 17/11/2026 to 05:00 on 18/11/2026",
       "2026-11-17 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-METROFIBREFTTHDURB | Area: Durban South (MetroFibre FTTH) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 17/11/2026 → 05:00 on 18/11/2026 SAST | Please note that Metrofibre engineers will be conducting maintenance from 23:00 on 17/11/2026 to 05:00 on 18/11/2026 | Started: 2026-11-17 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 17/11/2026 → 05:00 on 18/11/2026 SAST | Please note that Metrofibre engineers will be conducting maintenance from 23:00 on 17/11/2026 to 05:00 on 18/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1444,7 +1401,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 22:00 on 17/11/2026 → 10:00 on 18/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 17/11/2026 to 10:00 on 18/11/2026",
       "2026-11-17 22:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104596 | Area: Johannesburg - Roodepoort (Openserve FTTH NN0104596) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 22:00 on 17/11/2026 → 10:00 on 18/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 17/11/2026 to 10:00 on 18/11/2026 | Started: 2026-11-17 22:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 22:00 on 17/11/2026 → 10:00 on 18/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 17/11/2026 to 10:00 on 18/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1457,7 +1414,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 10:00 → 16:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 10:00 to 16:00 on 17/11/2026",
       "2026-11-17 10:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104597 | Area: Durban Metro - Tongaat - Belvedere (Openserve FTTH NN0104597) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 10:00 → 16:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 10:00 to 16:00 on 17/11/2026 | Started: 2026-11-17 10:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 10:00 → 16:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 10:00 to 16:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1470,7 +1427,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 07:30 → 19:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 07:30 to 19:00 on 17/11/2026",
       "2026-11-17 07:30",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16349577 | Area: East Rand (Frogfoot FTTH FRG16349577) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 07:30 → 19:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 07:30 to 19:00 on 17/11/2026 | Started: 2026-11-17 07:30 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 07:30 → 19:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 07:30 to 19:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1483,7 +1440,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 00:00 → 06:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 00:00 to 06:00 on 17/11/2026",
       "2026-11-17 00:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104595 | Area: Pretoria (Openserve FTTH NN0104595) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 00:00 → 06:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 00:00 to 06:00 on 17/11/2026 | Started: 2026-11-17 00:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 00:00 → 06:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 00:00 to 06:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1496,7 +1453,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 00:00 on 17/11/2026 → 05:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 00:00 on 17/11/2026 to 05:00 on 17/11/2026",
       "2026-11-17 00:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104594 | Area: Evander (Openserve FTTH NN0104594) (Mpumalanga) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 00:00 on 17/11/2026 → 05:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 00:00 on 17/11/2026 to 05:00 on 17/11/2026 | Started: 2026-11-17 00:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 00:00 on 17/11/2026 → 05:00 on 17/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 00:00 on 17/11/2026 to 05:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1509,7 +1466,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 16/11/2026 → 02:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 16/11/2026 to 02:00 on 17/11/2026",
       "2026-11-16 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16741640 | Area: Middelburg (Frogfoot FTTB FRG16741640) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 16/11/2026 → 02:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 16/11/2026 to 02:00 on 17/11/2026 | Started: 2026-11-16 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 16/11/2026 → 02:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 16/11/2026 to 02:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1522,7 +1479,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Customer routers will automatically reboot once the update has been completed. Customers are urged not to power down or disconnect their routers during the maintenance wi",
       "2026-11-16 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: FNO Partner | Ref: FNO-VOXDATASERVICESCR0 | Area: Vox Data Services CR0028327 (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Customer routers will automatically reboot once the update has been completed. Customers are urged not to power down or disconnect their routers during the maintenance wi | Started: 2026-11-16 23:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Customer routers will automatically reboot once the update has been completed. Customers are urged not to power down or disconnect their routers during the maintenance wi). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1535,7 +1492,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 23:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-16 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020855 | Area: Durban Metro - Westville (Vumatel GPON CHG-000020855) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 23:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-16 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 23:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1548,7 +1505,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-16 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16637722 | Area: Johannesburg - Sandton (Frogfoot FTTB FRG16637722) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-16 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1561,7 +1518,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-16 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16742763 | Area: Pretoria (Frogfoot FTTB FRG16742763) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-16 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1574,7 +1531,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-16 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020850 | Area: Pretoria (Vumatel GPON CHG-000020850) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-16 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1587,7 +1544,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-16 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020840 | Area: Johannesburg - City and Suburban (Vumatel GPON CHG-000020840) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-16 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1600,7 +1557,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026",
       "2026-11-16 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17097533 | Area: Cape Town - Paarden Eiland (Frogfoot FTTB FRG17097533) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026 | Started: 2026-11-16 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 16/11/2026 → 07:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 16/11/2026 to 07:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1613,21 +1570,21 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 16/11/2026 until 27/11/2026 between 17:00 and 21:00",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17098762 | Area: Durban Metro - Briardene (Frogfoot FTTB FRG17098762) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 16/11/2026 until 27/11/2026 between 17:00 and 21:00 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 16/11/2026 until 27/11/2026 between 17:00 and 21:00). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
-      "CHG-000020924",
+      "INC-000036696",
       "Vumatel",
       "Gauteng",
       "East Rand - Kempton Park - Cresslawn (Vumatel AE CHG-000020924)",
-      "MAINTENANCE",
-      "Planned Maintenance",
+      "ACUTE (<24h)",
+      "Current Outage",
       "🟢 Confirmed Window: 09:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 16/11/2026 to 14:00 on 20/11/2026",
       "2026-11-16 09:00",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020924 | Area: East Rand - Kempton Park - Cresslawn (Vumatel AE CHG-000020924) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036696 | Area: East Rand - Kempton Park - Cresslawn (Vumatel AE CHG-000020924) (Gauteng) | Status: Current Outage | ETA & Update: 🟢 Confirmed Window: 09:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
@@ -1639,7 +1596,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:30 on 16/11/2026 → 17:00 on 19/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:30 on 16/11/2026 to 17:00 on 19/11/2026",
       "2026-11-16 08:30",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020696 | Area: Cape Town - Brackenfell - Arauna, Cape Town - Brackenfell - Bracken Heights, Cape Town - Brackenfell - Edenpark (Vumatel CHG-000020696) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:30 on 16/11/2026 → 17:00 on 19/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:30 on 16/11/2026 to 17:00 on 19/11/2026 | Started: 2026-11-16 08:30 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:30 on 16/11/2026 → 17:00 on 19/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:30 on 16/11/2026 to 17:00 on 19/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1652,7 +1609,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021085 | Area: Johannesburg - Randburg - Parkhurst (Vumatel AE CHG-000021085) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1665,7 +1622,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021150 | Area: Johannesburg - Randburg - Robindale (Vumatel CHG-000021150) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1678,7 +1635,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021118 | Area: Johannesburg - Randburg - Randpark (Vumatel AE CHG-000021118) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1691,7 +1648,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021115 | Area: Johannesburg - Randburg - Blackheath (Vumatel AE CHG-000021115) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1704,7 +1661,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021112 | Area: Johannesburg - Roodepoort - Weltevredenpark (Vumatel CHG-000021112) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1717,7 +1674,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021157 | Area: Johannesburg - Waterval Estate (Vumatel AE CHG-000021157) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1730,7 +1687,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021091 | Area: Johannesburg - Greenside (Vumatel GPON CHG-000021091) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1743,7 +1700,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026",
       "2026-11-16 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021087 | Area: Johannesburg - Randburg - Linden (Vumatel FTTH CHG-000021087) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026 | Started: 2026-11-16 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 16/11/2026 → 17:00 on 24/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 16/11/2026 to 17:00 on 24/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1756,7 +1713,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 07:30 → 19:00 on 16/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 07:30 to 19:00 on 16/11/2026",
       "2026-11-16 07:30",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16349024 | Area: Johannesburg - Midrand - Vorna Valley (Frogfoot FTTH FRG16349024) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 07:30 → 19:00 on 16/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 07:30 to 19:00 on 16/11/2026 | Started: 2026-11-16 07:30 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 07:30 → 19:00 on 16/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 07:30 to 19:00 on 16/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1769,7 +1726,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 15/11/2026 → 12:00 on 16/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 15/11/2026 to 12:00 on 16/11/2026",
       "2026-11-15 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16732683 | Area: Johannesburg - Randburg (Frogfoot FTTB FRG16732683) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 15/11/2026 → 12:00 on 16/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 15/11/2026 to 12:00 on 16/11/2026 | Started: 2026-11-15 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 15/11/2026 → 12:00 on 16/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 15/11/2026 to 12:00 on 16/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1782,7 +1739,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 07:00 → 15:00 on 15/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 to 15:00 on 15/11/2026",
       "2026-11-15 07:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104584 | Area: East Rand - Tembisa (Openserve FTTH NN0104584) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 07:00 → 15:00 on 15/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 to 15:00 on 15/11/2026 | Started: 2026-11-15 07:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 07:00 → 15:00 on 15/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 to 15:00 on 15/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1795,7 +1752,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 06:00 on 15/11/2026 → 20:00 on 15/11/2026 SAST | Please note that Liquid Telecom engineers will be conducting maintenance from 06:00 on 15/11/2026 to 20:00 on 15/11/2026",
       "2026-11-15 06:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Liquid Telecom | Ref: LIQ-LIQUIDCHG0115967EA | Area: East Rand - Germiston (Liquid CHG0115967) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 06:00 on 15/11/2026 → 20:00 on 15/11/2026 SAST | Please note that Liquid Telecom engineers will be conducting maintenance from 06:00 on 15/11/2026 to 20:00 on 15/11/2026 | Started: 2026-11-15 06:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 06:00 on 15/11/2026 → 20:00 on 15/11/2026 SAST | Please note that Liquid Telecom engineers will be conducting maintenance from 06:00 on 15/11/2026 to 20:00 on 15/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1808,7 +1765,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 06:00 → 20:00 on 15/11/2026 SAST | Please note that Liquid engineers will be conducting maintenance from 06:00 to 20:00 on 15/11/2026",
       "2026-11-15 06:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Liquid Telecom | Ref: LIQ-LIQUIDCHG0115966EA | Area: East Rand - Benoni (Liquid CHG0115966) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 06:00 → 20:00 on 15/11/2026 SAST | Please note that Liquid engineers will be conducting maintenance from 06:00 to 20:00 on 15/11/2026 | Started: 2026-11-15 06:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 06:00 → 20:00 on 15/11/2026 SAST | Please note that Liquid engineers will be conducting maintenance from 06:00 to 20:00 on 15/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1821,7 +1778,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 06:00 → 20:00 on 15/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 06:00 to 20:00 on 15/11/2026",
       "2026-11-15 06:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRO-LIQUIDCHG0115967EA | Area: East Rand - Germiston (Liquid CHG0115967) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 06:00 → 20:00 on 15/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 06:00 to 20:00 on 15/11/2026 | Started: 2026-11-15 06:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 06:00 → 20:00 on 15/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 06:00 to 20:00 on 15/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1834,7 +1791,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 14:00 → 23:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 14:00 to 23:00 on 14/11/2026",
       "2026-11-14 14:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104569 | Area: Southern Cape - George - Loerie Park (Openserve FTTH NN0104569) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 14:00 → 23:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 14:00 to 23:00 on 14/11/2026 | Started: 2026-11-14 14:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 14:00 → 23:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 14:00 to 23:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1847,7 +1804,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 14:00 on 14/11/2026 → 20:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 14:00 on 14/11/2026 to 20:00 on 14/11/2026",
       "2026-11-14 14:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104563 | Area: Mokopane (Openserve FTTH NN0104563) (Limpopo) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 14:00 on 14/11/2026 → 20:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 14:00 on 14/11/2026 to 20:00 on 14/11/2026 | Started: 2026-11-14 14:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 14:00 on 14/11/2026 → 20:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 14:00 on 14/11/2026 to 20:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1860,7 +1817,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 → 14:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 08:00 to 14:00 on 14/11/2026",
       "2026-11-14 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104578 | Area: Cape Town - Kuils River (Openserve FTTH NN0104578) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 → 14:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 08:00 to 14:00 on 14/11/2026 | Started: 2026-11-14 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 → 14:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 08:00 to 14:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1873,7 +1830,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 07:00 on 14/11/2026 → 18:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 on 14/11/2026 to 18:00 on 14/11/2026",
       "2026-11-14 07:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104583 | Area: Durban Metro - Pinetown (Openserve FTTH NN0104583) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 07:00 on 14/11/2026 → 18:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 on 14/11/2026 to 18:00 on 14/11/2026 | Started: 2026-11-14 07:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 07:00 on 14/11/2026 → 18:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 on 14/11/2026 to 18:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1886,7 +1843,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 07:00 → 17:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 to 17:00 on 14/11/2026",
       "2026-11-14 07:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104602 | Area: Johannesburg - Sandton (Openserve FTTH NN0104602) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 07:00 → 17:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 to 17:00 on 14/11/2026 | Started: 2026-11-14 07:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 07:00 → 17:00 on 14/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 07:00 to 17:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1899,7 +1856,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Please note that Openserve engineers will be conducting maintenance from 0:00 on 14/11/2026 to 06:00 on 14/11/2026",
       "2026-11-14 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104586 | Area: Pretoria - Menlyn (Openserve FTTH NN0104586) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Please note that Openserve engineers will be conducting maintenance from 0:00 on 14/11/2026 to 06:00 on 14/11/2026 | Started: 2026-11-14 08:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Please note that Openserve engineers will be conducting maintenance from 0:00 on 14/11/2026 to 06:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1912,7 +1869,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 00:00 → 06:00 on 14/11/2026 SAST | Please note that Evotel engineers will be conducting emergency maintenance from 00:00 to 06:00 on 14/11/2026",
       "2026-11-14 00:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-EVOTELFTTHRIEBEECK | Area: Riebeeckstad (Evotel FTTH) (Free State) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 00:00 → 06:00 on 14/11/2026 SAST | Please note that Evotel engineers will be conducting emergency maintenance from 00:00 to 06:00 on 14/11/2026 | Started: 2026-11-14 00:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 00:00 → 06:00 on 14/11/2026 SAST | Please note that Evotel engineers will be conducting emergency maintenance from 00:00 to 06:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1925,7 +1882,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 13/11/2026 → 07:00 on 14/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 13/11/2026 to 07:00 on 14/11/2026",
       "2026-11-13 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16734649 | Area: East London - Wilsonia (Frogfoot FTTB FRG16734649) (Eastern Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 13/11/2026 → 07:00 on 14/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 13/11/2026 to 07:00 on 14/11/2026 | Started: 2026-11-13 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 13/11/2026 → 07:00 on 14/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 13/11/2026 to 07:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1938,8 +1895,21 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 13/11/2026 → 07:00 on 14/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 13/11/2026 to 07:00 on 14/11/2026",
       "2026-11-13 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020791 | Area: Cape Winelands - Stellenbosch (Vumatel GPON CHG-000020791) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 13/11/2026 → 07:00 on 14/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 13/11/2026 to 07:00 on 14/11/2026 | Started: 2026-11-13 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 13/11/2026 → 07:00 on 14/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 21:00 on 13/11/2026 to 07:00 on 14/11/2026). Link case to Master Ref — do NOT book tech callout.",
+      "Vox National NOC Table"
+    ],
+    [
+      "FRG17130660",
+      "Frogfoot",
+      "Gauteng",
+      "Johannesburg - Ophirton, Johannesburg - Booysens (Frogfoot FTTB FRG17130660)",
+      "ACUTE (<24h)",
+      "Current Outage",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault",
+      "2026-11-13 08:00",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17130660 | Area: Johannesburg - Ophirton, Johannesburg - Booysens (Frogfoot FTTB FRG17130660) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
@@ -1951,7 +1921,7 @@
       "Current Outage",
       "🟢 Confirmed Window: 17:00 on 11/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 11/11/2026 to 21:00 on 20/11/2026",
       "2026-11-13 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17125309 | Area: Bloemfontein - Langenhoven Park (Frogfoot FTTH FRG17125309) (Free State) | Status: Current Outage | ETA & Update: 🟢 Confirmed Window: 17:00 on 11/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 11/11/2026 to 21:00 on 20/11/2026 | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 17:00 on 11/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 11/11/2026 to 21:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1962,10 +1932,10 @@
       "Johannesburg - Southgate (Frogfoot FTTB FRG17122598)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault",
       "2026-11-13 08:00",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17122598 | Area: Johannesburg - Southgate (Frogfoot FTTB FRG17122598) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17122598 | Area: Johannesburg - Southgate (Frogfoot FTTB FRG17122598) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
@@ -1977,7 +1947,7 @@
       "Current Outage",
       "🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026",
       "2026-11-13 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17123049 | Area: Cape Town - Milnerton - Montague Gardens (FrogFoot FTTB FRG17123049) (Western Cape) | Status: Current Outage | ETA & Update: 🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026 | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -1988,23 +1958,10 @@
       "Durban Metro - Pinetown (Frogfoot FTTB FRG17124009)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault",
       "2026-11-13 08:00",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17124009 | Area: Durban Metro - Pinetown (Frogfoot FTTB FRG17124009) (KwaZulu-Natal) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
-      "Vox National NOC Table"
-    ],
-    [
-      "FRG17122475",
-      "Frogfoot",
-      "Gauteng",
-      "Johannesburg - Soweto (FrogFoot FTTB FRG17122475)",
-      "ACUTE (<24h)",
-      "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | FrogFoot engineers are attending to the fault",
-      "2026-11-13 08:00",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17122475 | Area: Johannesburg - Soweto (FrogFoot FTTB FRG17122475) (Gauteng) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | FrogFoot engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | FrogFoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17124009 | Area: Durban Metro - Pinetown (Frogfoot FTTB FRG17124009) (KwaZulu-Natal) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Frogfoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
@@ -2014,10 +1971,10 @@
       "Upington (Evotel FTTH)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Evotel engineers are attending to the fault",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Evotel engineers are attending to the fault",
       "2026-11-13 08:00",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-EVOTELFTTHUPINGTON | Area: Upington (Evotel FTTH) (Northern Cape) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Evotel engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Evotel engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-EVOTELFTTHUPINGTON | Area: Upington (Evotel FTTH) (Northern Cape) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Evotel engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Evotel engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
@@ -2027,10 +1984,10 @@
       "Nelspruit - Kamagugu (Vumatel GPON INC-000036664)",
       "ACUTE (<24h)",
       "Current Outage",
-      "🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault",
+      "🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault",
       "2026-11-13 08:00",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036664 | Area: Nelspruit - Kamagugu (Vumatel GPON INC-000036664) (Mpumalanga) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.4h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Vumatel | Ref: INC-000036664 | Area: Nelspruit - Kamagugu (Vumatel GPON INC-000036664) (Mpumalanga) | Status: Current Outage | ETA & Update: 🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault | Started: 2026-11-13 08:00 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.0h left (8–12h Fibre Splice SLA) | Vumatel engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
     [
@@ -2042,7 +1999,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 23:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 12/11/2026 to 07:00 on 13/11/2026",
       "2026-11-12 23:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17026287 | Area: Durban Metro - Westville (Frogfoot FTTB FRG17026287) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 23:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 12/11/2026 to 07:00 on 13/11/2026 | Started: 2026-11-12 23:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 23:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 23:00 on 12/11/2026 to 07:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2055,7 +2012,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 22:00 on 12/11/2026 → 08:00 on 13/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 12/11/2026 to 08:00 on 13/11/2026",
       "2026-11-12 22:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104588 | Area: Johannesburg - Roodepoort (Openserve FTTH NN0104588) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 22:00 on 12/11/2026 → 08:00 on 13/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 12/11/2026 to 08:00 on 13/11/2026 | Started: 2026-11-12 22:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 22:00 on 12/11/2026 → 08:00 on 13/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 22:00 on 12/11/2026 to 08:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2068,7 +2025,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026",
       "2026-11-12 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16532295 | Area: Johannesburg - Midrand (Frogfoot FTTB FRG16532295) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026 | Started: 2026-11-12 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2081,7 +2038,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026",
       "2026-11-12 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16597760 | Area: Cape Town - Wynberg (Frogfoot FTTB FRG16597760) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026 | Started: 2026-11-12 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2094,7 +2051,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026",
       "2026-11-12 21:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16603654 | Area: Johannesburg - Randburg (Frogfoot FTTB FRG16603654) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026 | Started: 2026-11-12 21:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 21:00 on 12/11/2026 → 07:00 on 13/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 21:00 on 12/11/2026 to 07:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2107,7 +2064,7 @@
       "Current Outage",
       "🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Microsoft engineers are actively investigating the fault but mitigation actions have been taken to reduce impact",
       "2026-11-12 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: FNO Partner | Ref: FNO-MICROSOFTOUTLOOKEX | Area: Microsoft Outlook EX1550543 (National) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Microsoft engineers are actively investigating the fault but mitigation actions have been taken to reduce impact | Started: 2026-11-12 08:00 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Microsoft engineers are actively investigating the fault but mitigation actions have been taken to reduce impact). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2120,7 +2077,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 17:00 on 12/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 12/11/2026 to 21:00 on 20/11/2026",
       "2026-11-12 17:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17030326 | Area: Johannesburg - Midrand (Frogfoot FTTB FRG17030326) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 17:00 on 12/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 12/11/2026 to 21:00 on 20/11/2026 | Started: 2026-11-12 17:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 17:00 on 12/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 12/11/2026 to 21:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2133,7 +2090,7 @@
       "Current Outage",
       "🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Repairs are delayed due to site access restrictions, FrogFoot engineers are attending to the fault",
       "2026-11-12 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG17100978 | Area: Cape Town - Matroosfontein (FrogFoot FTTB FRG17100978) (Western Cape) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Repairs are delayed due to site access restrictions, FrogFoot engineers are attending to the fault | Started: 2026-11-12 08:00 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Repairs are delayed due to site access restrictions, FrogFoot engineers are attending to the fault). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2146,7 +2103,7 @@
       "Current Outage",
       "🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Fault has been escalated to Frogfoot for investigation",
       "2026-11-12 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRO-FROGFOOTFTTH437745 | Area: Richards Bay (Frogfoot FTTH #4377458) (KwaZulu-Natal) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Fault has been escalated to Frogfoot for investigation | Started: 2026-11-12 08:00 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Fault has been escalated to Frogfoot for investigation). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2159,7 +2116,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 on 09/11/2026 → 23:59 on 16/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 09:00 on 09/11/2026 to 23:59 on 16/11/2026",
       "2026-11-12 09:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Openserve | Ref: NN0104557 | Area: Pretoria - Centurion - Celtisdal (Openserve FTTH NN0104557) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 09/11/2026 → 23:59 on 16/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 09:00 on 09/11/2026 to 23:59 on 16/11/2026 | Started: 2026-11-12 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 09/11/2026 → 23:59 on 16/11/2026 SAST | Please note that Openserve engineers will be conducting maintenance from 09:00 on 09/11/2026 to 23:59 on 16/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2172,7 +2129,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Please note that scheduled maintenance will take place from 22:00 on 11/11/2026 to 02:00 on 12/11/2026",
       "2026-11-11 22:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: FNO Partner | Ref: FNO-VOXSHOPCUSTOMERPOR | Area: Vox Shop/Customer Portal CR0028319 (National) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Please note that scheduled maintenance will take place from 22:00 on 11/11/2026 to 02:00 on 12/11/2026 | Started: 2026-11-11 22:00 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Vox National NOC Table"
     ],
@@ -2185,7 +2142,7 @@
       "Resolved — Reboot CPE",
       "✅ Restored (Advise 2-min ONT Reboot) | Please note that Comsol engineers will be conducting maintenance from 17:00 on 11/11/2026 to 18:00 on 11/11/2026",
       "2026-11-11 17:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Waterfall Access Networks | Ref: WAT-COMSOLCHG0033659TS | Area: Tshwane (Comsol CHG0033659) (Gauteng) | Status: Resolved — Reboot CPE | ETA & Update: ✅ Restored (Advise 2-min ONT Reboot) | Please note that Comsol engineers will be conducting maintenance from 17:00 on 11/11/2026 to 18:00 on 11/11/2026 | Started: 2026-11-11 17:00 | Action: Advise customer to power-cycle ONT and Router for 2 mins.",
       "Vox National NOC Table"
     ],
@@ -2198,7 +2155,7 @@
       "Current Outage",
       "🔴 SLA Breached (2.4d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Riverside View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on ",
       "2026-11-11 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-METROFIBREFTTH1725 | Area: Johannesburg - Diepsloot - Riverside view (Metrofibre FTTH 1725136) (Gauteng) | Status: Current Outage | ETA & Update: 🔴 SLA Breached (2.4d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Riverside View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on  | Started: 2026-11-11 08:00 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (2.4d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Riverside View, affected clients will experience limited to no connectivity. Metrofibre engineers are working on ). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table + Afrihost Status (Live)"
     ],
@@ -2211,7 +2168,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 17:00 on 09/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 09/11/2026 to 21:00 on 20/11/2026",
       "2026-11-09 17:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16987804 | Area: Pretoria - Silvertondale (Frogfoot FTTB FRG16987804) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 17:00 on 09/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 09/11/2026 to 21:00 on 20/11/2026 | Started: 2026-11-09 17:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 17:00 on 09/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 09/11/2026 to 21:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2224,7 +2181,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 17:00 on 09/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 09/11/2026 to 21:00 on 20/11/2026",
       "2026-11-09 17:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16989209 | Area: East Rand - Edenvale (Frogfoot FTTB FRG16989209) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 17:00 on 09/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 09/11/2026 to 21:00 on 20/11/2026 | Started: 2026-11-09 17:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 17:00 on 09/11/2026 → 21:00 on 20/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 17:00 on 09/11/2026 to 21:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2237,7 +2194,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 10:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 10:00 on 09/11/2026 to 14:00 on 13/11/2026",
       "2026-11-09 10:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020992 | Area: Pretoria - Akasia (Vumatel GPON CHG-000020992) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 10:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 10:00 on 09/11/2026 to 14:00 on 13/11/2026 | Started: 2026-11-09 10:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 10:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 10:00 on 09/11/2026 to 14:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2250,7 +2207,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026",
       "2026-11-09 09:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020787 | Area: East Rand - Brakpan (Vumatel GPON CHG-000020787) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026 | Started: 2026-11-09 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2263,7 +2220,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026",
       "2026-11-09 09:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020874 | Area: Johannesburg - Roodepoort (Vumatel GPON CHG-000020874) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026 | Started: 2026-11-09 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2276,7 +2233,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026",
       "2026-11-09 09:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000021003 | Area: Cape Town - Durbanville (Vumatel CHG-000021003) (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026 | Started: 2026-11-09 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2289,7 +2246,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026",
       "2026-11-09 09:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020920 | Area: Johannesburg - Randburg - Fairland (Vuma Gpon CHG-000020920) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026 | Started: 2026-11-09 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2302,7 +2259,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026",
       "2026-11-09 09:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020887 | Area: East Rand - Boksburg (Vumatel GPON CHG-000020887) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026 | Started: 2026-11-09 09:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 09:00 on 09/11/2026 → 14:00 on 13/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 09:00 on 09/11/2026 to 14:00 on 13/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2315,7 +2272,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 08:00 on 09/11/2026 to 17:00 on 17/11/2026",
       "2026-11-09 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020974 | Area: Johannesburg - Randburg - Berario (Vuma FTTX CHG-000020976) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 08:00 on 09/11/2026 to 17:00 on 17/11/2026 | Started: 2026-11-09 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Frogfoot engineers will be conducting maintenance from 08:00 on 09/11/2026 to 17:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2328,7 +2285,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 09/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 09/11/2026 to 14:00 on 20/11/2026",
       "2026-11-09 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020948 | Area: Johannesburg - Randburg - Bromhof (Vuma FTTX CHG-000020960) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 09/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 09/11/2026 to 14:00 on 20/11/2026 | Started: 2026-11-09 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 09/11/2026 → 14:00 on 20/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 09/11/2026 to 14:00 on 20/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2341,7 +2298,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:15 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:15 on 09/11/2026 to 17:00 on 17/11/2026",
       "2026-11-09 08:15",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020957 | Area: Johannesburg - Sandton - Gallo Manor (Vumatel AE CHG-000020957) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:15 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:15 on 09/11/2026 to 17:00 on 17/11/2026 | Started: 2026-11-09 08:15 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:15 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:15 on 09/11/2026 to 17:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2354,7 +2311,7 @@
       "Planned Maintenance",
       "🟢 Confirmed Window: 08:00 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 09/11/2026 to 17:00 on 17/11/2026",
       "2026-11-09 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Vumatel | Ref: CHG-000020972 | Area: Randburg - Jacanlee (Vumatel AE CHG-000020972) (Gauteng) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed Window: 08:00 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 09/11/2026 to 17:00 on 17/11/2026 | Started: 2026-11-09 08:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed Window: 08:00 on 09/11/2026 → 17:00 on 17/11/2026 SAST | Please note that Vumatel engineers will be conducting maintenance from 08:00 on 09/11/2026 to 17:00 on 17/11/2026). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2367,7 +2324,7 @@
       "Planned Maintenance",
       "🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 03/11/2026 until 13/11/2026 between 17:00 and 21:00",
       "2026-11-03 08:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRG16770636 | Area: Durban Metro (Frogfoot FTTB FRG16770636) (KwaZulu-Natal) | Status: Planned Maintenance | ETA & Update: 🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 03/11/2026 until 13/11/2026 between 17:00 and 21:00 | Started: 2026-11-03 08:00 | Action: Inform customer of FNO Ref & ETA (🛠️ Est. Complete ~5h Maint SLA | Please note that Frogfoot engineers will be conducting maintenance from 03/11/2026 until 13/11/2026 between 17:00 and 21:00). Link case to Master Ref — do NOT book tech callout.",
       "Vox National NOC Table"
     ],
@@ -2378,10 +2335,10 @@
       "Prestbury & Lester Park",
       "ACUTE (<24h)",
       "Medium Impact Outage",
-      "🟠 Derived ETA: ~2.1h left (8–12h Fibre Splice SLA) | Metrofibre has informed us of a network outage affecting Prestbury & Lester Park, affected clients will experience limited to no connectivity. Metrofibre engineers are wo",
+      "🟠 Derived ETA: ~1.1h left (8–12h Fibre Splice SLA) | Metrofibre has informed us of a network outage affecting Prestbury & Lester Park, affected clients will experience limited to no connectivity. Metrofibre engineers are wo",
       "2026-11-13 08:44",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-PRESTBURYLESTERPAR | Area: Prestbury & Lester Park (National) | Status: Medium Impact Outage | ETA & Update: 🟠 Derived ETA: ~2.1h left (8–12h Fibre Splice SLA) | Metrofibre has informed us of a network outage affecting Prestbury & Lester Park, affected clients will experience limited to no connectivity. Metrofibre engineers are wo | Started: 2026-11-13 08:44 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~2.1h left (8–12h Fibre Splice SLA) | Metrofibre has informed us of a network outage affecting Prestbury & Lester Park, affected clients will experience limited to no connectivity. Metrofibre engineers are wo). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-PRESTBURYLESTERPAR | Area: Prestbury & Lester Park (National) | Status: Medium Impact Outage | ETA & Update: 🟠 Derived ETA: ~1.1h left (8–12h Fibre Splice SLA) | Metrofibre has informed us of a network outage affecting Prestbury & Lester Park, affected clients will experience limited to no connectivity. Metrofibre engineers are wo | Started: 2026-11-13 08:44 | Action: Inform customer of FNO Ref & ETA (🟠 Derived ETA: ~1.1h left (8–12h Fibre Splice SLA) | Metrofibre has informed us of a network outage affecting Prestbury & Lester Park, affected clients will experience limited to no connectivity. Metrofibre engineers are wo). Link case to Master Ref — do NOT book tech callout.",
       "Afrihost Status (Live)"
     ],
     [
@@ -2391,10 +2348,10 @@
       "Welgevonden",
       "ACUTE (<24h)",
       "Medium Impact Outage",
-      "🚧 Derived ETA: within 24h (22h elapsed | Civil Rebuild SLA) | Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this is",
+      "🚧 Derived ETA: within 24h (23h elapsed | Civil Rebuild SLA) | Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this is",
       "2026-11-12 18:16",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRO-WELGEVONDEN | Area: Welgevonden (Western Cape) | Status: Medium Impact Outage | ETA & Update: 🚧 Derived ETA: within 24h (22h elapsed | Civil Rebuild SLA) | Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this is | Started: 2026-11-12 18:16 | Action: Inform customer of FNO Ref & ETA (🚧 Derived ETA: within 24h (22h elapsed | Civil Rebuild SLA) | Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this is). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRO-WELGEVONDEN | Area: Welgevonden (Western Cape) | Status: Medium Impact Outage | ETA & Update: 🚧 Derived ETA: within 24h (23h elapsed | Civil Rebuild SLA) | Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this is | Started: 2026-11-12 18:16 | Action: Inform customer of FNO Ref & ETA (🚧 Derived ETA: within 24h (23h elapsed | Civil Rebuild SLA) | Frogfoot has informed us of a network outage affecting Stellenbosch, affected clients will experience no connectivity. Frogfoot engineers are working on resolving this is). Link case to Master Ref — do NOT book tech callout.",
       "Afrihost Status (Live)"
     ],
     [
@@ -2406,7 +2363,7 @@
       "Medium Impact Outage",
       "🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Evotel has informed us of a network outage affecting Westbrook, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving thi",
       "2026-11-12 08:04",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Evotel | Ref: EVO-WESTBROOK | Area: Westbrook (National) | Status: Medium Impact Outage | ETA & Update: 🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Evotel has informed us of a network outage affecting Westbrook, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving thi | Started: 2026-11-12 08:04 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (1.4d elapsed) — Civil/Wayleave Fault | Evotel has informed us of a network outage affecting Westbrook, affected clients will experience limited to no connectivity. Evotel engineers are working on resolving thi). Link case to Master Ref — do NOT book tech callout.",
       "Afrihost Status (Live)"
     ],
@@ -2417,10 +2374,10 @@
       "Florentia",
       "ACUTE (<24h)",
       "Medium Impact Outage",
-      "🔴 SLA Breached (2.0d elapsed) — Civil/Wayleave Fault | Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving",
+      "🔴 SLA Breached (2.1d elapsed) — Civil/Wayleave Fault | Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving",
       "2026-11-11 16:12",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRO-FLORENTIA | Area: Florentia (National) | Status: Medium Impact Outage | ETA & Update: 🔴 SLA Breached (2.0d elapsed) — Civil/Wayleave Fault | Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving | Started: 2026-11-11 16:12 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (2.0d elapsed) — Civil/Wayleave Fault | Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: Frogfoot | Ref: FRO-FLORENTIA | Area: Florentia (National) | Status: Medium Impact Outage | ETA & Update: 🔴 SLA Breached (2.1d elapsed) — Civil/Wayleave Fault | Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving | Started: 2026-11-11 16:12 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (2.1d elapsed) — Civil/Wayleave Fault | Frogfoot has informed us of a network outage affecting Florentia, affected clients will experience limited to no connectivity. Frogfoot engineers are working on resolving). Link case to Master Ref — do NOT book tech callout.",
       "Afrihost Status (Live)"
     ],
     [
@@ -2430,10 +2387,10 @@
       "Beaulieu Country Estate",
       "ACUTE (<24h)",
       "Medium Impact Outage",
-      "🔴 SLA Breached (2.0d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivit",
+      "🔴 SLA Breached (2.1d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivit",
       "2026-11-11 16:07",
-      "2026-11-13 18:37",
-      "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-BEAULIEUCOUNTRYEST | Area: Beaulieu Country Estate (National) | Status: Medium Impact Outage | ETA & Update: 🔴 SLA Breached (2.0d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivit | Started: 2026-11-11 16:07 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (2.0d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivit). Link case to Master Ref — do NOT book tech callout.",
+      "2026-11-13 19:36",
+      "[082 1904 OUTAGE] FNO: MetroFibre | Ref: MET-BEAULIEUCOUNTRYEST | Area: Beaulieu Country Estate (National) | Status: Medium Impact Outage | ETA & Update: 🔴 SLA Breached (2.1d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivit | Started: 2026-11-11 16:07 | Action: Inform customer of FNO Ref & ETA (🔴 SLA Breached (2.1d elapsed) — Civil/Wayleave Fault | Metrofibre has informed us of a network outage affecting Beaulieu Country Estate and Blue Hills Country Estate, affected clients will experience limited to no connectivit). Link case to Master Ref — do NOT book tech callout.",
       "Afrihost Status (Live)"
     ],
     [
@@ -2445,7 +2402,7 @@
       "Planned Maintenance",
       "🟢 Confirmed End ETA: 17/11/2026 05:00 SAST | Octotel NOC Notice (East CBD Node)",
       "2026-11-17 12:00",
-      "2026-11-13 18:37",
+      "2026-11-13 19:36",
       "[082 1904 OUTAGE] FNO: Octotel | Ref: OCT-EASTCBDNODE | Area: East CBD Node (Western Cape) | Status: Planned Maintenance | ETA & Update: 🟢 Confirmed End ETA: 17/11/2026 05:00 SAST | Octotel NOC Notice (East CBD Node) | Started: 2026-11-17 12:00 | Action: Inform customer of FNO Ref & ETA (🟢 Confirmed End ETA: 17/11/2026 05:00 SAST | Octotel NOC Notice (East CBD Node)). Link case to Master Ref — do NOT book tech callout.",
       "Octotel Official NOC"
     ]
